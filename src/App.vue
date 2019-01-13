@@ -1,28 +1,230 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img id="logo" src="./assets/logo.png">
+    <Navigation></Navigation>
+    <router-view/>
+    <Footer></Footer>
   </div>
-</template>
+</template> 
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    HelloWorld
+    Navigation: Navigation,
+    Footer: Footer
   }
-}
+};
 </script>
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: white;
+  margin-top: 10px;
+}
+#logo {
+  height: auto;
+  width: 700px;
+}
+.spacing {
+  margin-right: 10px;
+}
+.NavigationBar {
+  background-color: lightgrey;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h2 {
+  margin: 0px;
+  text-transform: uppercase;
+}
+
+h6 {
+  margin: 0px;
+  color: #777;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.tabs {
+  width: 100%;
+  font-size: 15px;
+  padding: 0px;
+  list-style: none;
+  background: #122b7b;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.tabs a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  transition-duration: 0.6s;
+}
+
+.router-link-active {
+  color: #05abe0 !important;
+}
+
+.tabs a i {
+  margin-right: 5px;
+}
+
+.tabs .selector {
+  height: 100%;
+  display: inline-block;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+  border-radius: 50px;
+  transition-duration: 0.6s;
+  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+  background: #05abe0;
+  background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+  background: -webkit-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+  background: linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4',GradientType=1 );
+}
+.quickSummary {
+  border-color: #8200f4;
+  padding: 40px;
+}
+.juryAndSpeakers {
+  border-color: #8200f4;
+  padding: 40px;
+}
+.pricing {
+  border-color: #8200f4;
+  padding: 40px;
+}
+.signup {
+  border-color: #8200f4;
+  padding: 40px;
+}
+.venue {
+  border-color: #8200f4;
+  background: url("./assets/voksenaasen.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 40px;
+}
+.venue-image {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.signup {
+  background: #122b7b;
+}
+.signup ul {
+  list-style-type: none;
+}
+.pricing {
+  background: #05abe0;
+}
+.pricing ul {
+  list-style-type: none;
+}
+.pricing-coins {
+  height: 150px;
+  background: url("./assets/coins.png") no-repeat center;
+}
+.juryAndSpeakers {
+  background: #122b7b;
+}
+.juryAndSpeakers .judge-devider {
+  margin-bottom: 15px;
+}
+.juryAndSpeakers .card {
+  background: #122b7b;
+}
+.juryAndSpeakers .card-bart {
+  height: 300px;
+  background: url("./assets/judges/homer.png") no-repeat center;
+}
+.juryAndSpeakers .card-homer {
+  height: 300px;
+  background: url("./assets/judges/homer.png") no-repeat center;
+}
+.juryAndSpeakers .card-lisa {
+  height: 300px;
+  background: url("./assets/judges/homer.png") no-repeat center;
+}
+.juryAndSpeakers .card-marge {
+  height: 300px;
+  background: url("./assets/judges/homer.png") no-repeat center;
+}
+.juryAndSpeakers .card-name {
+  padding-top: 10px;
+}
+.quickSummary {
+  background: white;
+  height: 300px;
+  background: url("./assets/simpsons-monorriel.png") no-repeat center center
+    fixed;
+  background-size: cover;
+}
+.quickSummary h1 {
+  color: white;
+  font-weight: 900;
+}
+.quickSummary h3 {
+  color: white;
+  font-weight: 900;
+}
+.quickSummary p {
+  color: black;
+  font-weight: 900;
+}
+.about {
+  background: #122b7b;
+  padding: 20px;
+}
+.about ul {
+  list-style-type: none;
+}
+.sponsors {
+  background: #122b7b;
+  padding: 20px;
+}
+.lastyear {
+  background: #122b7b;
+  padding: 20px;
+}
+.contact {
+  background: #122b7b;
+  padding: 20px;
+}
+.agenda {
+  background: #122b7b;
+  padding: 20px;
+}
+.footer {
+  background: black;
+  padding-top: 20px;
 }
 </style>

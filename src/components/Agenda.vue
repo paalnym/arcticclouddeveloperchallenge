@@ -1,0 +1,23 @@
+<template>
+  <div>
+     <div class="container-fluid">
+      <div class="row agenda">
+        <div class="container">
+          <div class="col-md-12">
+            <h3>Agenda for ACDC 2019 comming soon...</h3>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </div>
+        </div>
+      </div>
+    </div> 
+  </div>
+</template>
+
+
+<script>
+export default {
+  name: 'Agenda' //this is the name of the component
+}
+</script>
+<style>
+</style>
