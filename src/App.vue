@@ -161,22 +161,27 @@ h6 {
 }
 .juryAndSpeakers .card {
   background: #122b7b;
+  border: 0;
 }
-.juryAndSpeakers .card-bart {
+.juryAndSpeakers .card-seb {
   height: 300px;
-  background: url("./assets/judges/homer.png") no-repeat center;
+  background: url("./assets/judges/seb.png") no-repeat center;
 }
-.juryAndSpeakers .card-homer {
+.juryAndSpeakers .card-erwin {
   height: 300px;
-  background: url("./assets/judges/homer.png") no-repeat center;
+  background: url("./assets/judges/erwin.png") no-repeat center;
 }
-.juryAndSpeakers .card-lisa {
+.juryAndSpeakers .card-marius {
   height: 300px;
-  background: url("./assets/judges/homer.png") no-repeat center;
+  background: url("./assets/judges/marius.png") no-repeat center;
 }
-.juryAndSpeakers .card-marge {
+.juryAndSpeakers .card-laura {
   height: 300px;
-  background: url("./assets/judges/homer.png") no-repeat center;
+  background: url("./assets/judges/laura.png") no-repeat center;
+}
+.juryAndSpeakers .card-chris {
+  height: 300px;
+  background: url("./assets/judges/chris.png") no-repeat center;
 }
 .juryAndSpeakers .card-name {
   padding-top: 10px;

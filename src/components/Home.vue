@@ -21,12 +21,10 @@
               <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <div class="card-homer"></div>
-                    <h5 class="card-name">Homer simpson</h5>
-                    <h5 class="card-subject">Office 365</h5>
+                    <div class="card-seb"></div>
+                    <h5 class="card-name">Seb Matthews</h5>
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet, duo ne laoreet erroribus percipitur, tota habeo persius ei eam. Ei dolore tibique salutatus vis. No vocent ceteros vel, solum primis in sed. Ne vix lorem veniam. Ullum errem vim cu.
-                      Mel no etiam essent, ei usu summo aperiri, timeam nonumes indoctum eum ei. Error consul petentium in pro, ius quem nisl at, vix placerat salutatus expetendis id. Aliquid temporibus liberavisse et quo. Vivendo accommodare id vel. Ullum utamur impetus ei mea.
+                      Consultant. Tech Leader. Investor. Speaker. Privacy. Information Management. Microsoft Fan. Seb is an all around nice guy, being a returning judge, and knowledgeable about most things Microsoft. Among his many ventures he is also employed as a technology futurist at NASA.                  
                     </p>
                   </div>
                 </div>
@@ -34,12 +32,10 @@
               <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <div class="card-lisa"></div>
-                    <h5 class="card-name">Lisa simpson</h5>
-                    <h5 class="card-subject">Office 365</h5>
+                    <div class="card-erwin"></div>
+                    <h5 class="card-name">Erwin Van Hunen</h5>
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet, duo ne laoreet erroribus percipitur, tota habeo persius ei eam. Ei dolore tibique salutatus vis. No vocent ceteros vel, solum primis in sed. Ne vix lorem veniam. Ullum errem vim cu.
-                      Mel no etiam essent, ei usu summo aperiri, timeam nonumes indoctum eum ei. Error consul petentium in pro, ius quem nisl at, vix placerat salutatus expetendis id. Aliquid temporibus liberavisse et quo. Vivendo accommodare id vel. Ullum utamur impetus ei mea.
+                      Product Manager at Rencore. Erwin is a Microsoft MVP in Office Apps and Services, he’s also a Microsoft Certified Master, and a core member of the Microsoft SharePoint Patterns and Practices (PnP) team. Erwin is somewhat of a PowerShell wizard, and participated once before in the event, where his team lost – now he’s back to judge them all!
                     </p>
                   </div>
                 </div>
@@ -49,12 +45,10 @@
               <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <div class="card-marge"></div>
-                    <h5 class="card-name">Marge simpson</h5>
-                    <h5 class="card-subject">Office 365</h5>
+                    <div class="card-marius"></div>
+                    <h5 class="card-name">Marius Agur Hagelund Lind</h5>
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet, duo ne laoreet erroribus percipitur, tota habeo persius ei eam. Ei dolore tibique salutatus vis. No vocent ceteros vel, solum primis in sed. Ne vix lorem veniam. Ullum errem vim cu.
-                      Mel no etiam essent, ei usu summo aperiri, timeam nonumes indoctum eum ei. Error consul petentium in pro, ius quem nisl at, vix placerat salutatus expetendis id. Aliquid temporibus liberavisse et quo. Vivendo accommodare id vel. Ullum utamur impetus ei mea.
+                      Owner at Marius Agur Consulting and a Microsoft MVP in Business Applications. This CRMViking has both been a participant and judge before, so he knows what’s going on – most importantly, he can explain the points system.
                     </p>
                   </div>
                 </div>
@@ -62,12 +56,21 @@
               <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <div class="card-bart"></div>
-                    <h5 class="card-name">Bart simpson</h5>
-                    <h5 class="card-subject">Office 365</h5>
+                    <div class="card-laura"></div>
+                    <h5 class="card-name">Laura Kokkarinen</h5>
                     <p class="card-text">
-                      Lorem ipsum dolor sit amet, duo ne laoreet erroribus percipitur, tota habeo persius ei eam. Ei dolore tibique salutatus vis. No vocent ceteros vel, solum primis in sed. Ne vix lorem veniam. Ullum errem vim cu.
-                      Mel no etiam essent, ei usu summo aperiri, timeam nonumes indoctum eum ei. Error consul petentium in pro, ius quem nisl at, vix placerat salutatus expetendis id. Aliquid temporibus liberavisse et quo. Vivendo accommodare id vel. Ullum utamur impetus ei mea.
+                      Senior Developer at Sulava Oy. Laura has recently been awarded Microsoft MVP in Office Development and writes very insightful articles about Office 365. This is her first hackathon as a judge.
+                    </p>
+                  </div>
+                </div>
+              </div>
+               <div class="col-sm-6">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="card-chris"></div>
+                    <h5 class="card-name">Chris Huntingford</h5>
+                    <p class="card-text">
+                     Solution Architect at Hitachi Solutions, Ltd & Microsoft MVP in Business Applications.
                     </p>
                   </div>
                 </div>
@@ -104,10 +107,11 @@
                 <li>Team name</li>
                 <li>Company</li>
                 <li>Team Leader</li>
-                <li>Members (each with name)</li>
                 <li>Twitter hashtag (if you have)</li>
               </ul>
               <p>By signing up you commit to the non-refundable signup fee. Companies can change the team-members after signing up, but if number of attendees is reduced, signup fees will still be charged your company. (In Norwegian: Påmeldingen er bindende).</p>
+              <h4><A href="mailto:mikael.svenson@puzzlepart.com">1. Register your team by sending us an email with the information above</A></h4>
+              <h4><A href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPj0x9ZVnyi1MuYITgulpX8FUOFBJREpLOFY1QzZMNzJYQ1FUWU5ZUlhDTyQlQCN0PWcu&fbclid=IwAR1gtPQrSpvipHOLHA4Z-gRakL4kZJeLPlTiZO-aHSNdkraHeXEbr6b7WpM">2. Register your team members</A></h4>
             </div>
           </div>
         </div>
