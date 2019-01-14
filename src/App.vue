@@ -215,6 +215,7 @@ h6 {
 .about .title {
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 .about ul {
   list-style-type: none;
@@ -231,6 +232,10 @@ h6 {
   background: #122b7b;
   padding: 20px;
 }
+.contact h3 {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
 .agenda {
   background: #122b7b;
   padding: 20px;
@@ -239,6 +244,7 @@ h6 {
 .agenda .title {
   text-align: center;
   margin-bottom: 30px;
+  margin-top: 20px;
 }
 .agenda .card {
   background: #122b7b;
@@ -250,5 +256,12 @@ h6 {
 .footer {
   background: black;
   padding-top: 20px;
+}
+.lastyear h3 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.lastyear .image {
+  border: 0!important;
 }
 </style>
