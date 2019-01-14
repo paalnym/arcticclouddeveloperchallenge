@@ -11,7 +11,7 @@
               <P>The Arctic Cloud Developer Challenge was former known as The Arctic SharePoint Challenge. There has been a shift in the challenge focus from solely focusing on SharePoint to embracing all Microsoft's cloud tech.</P>
               <P>The main focus this year will be on: Azure, Office 365 and Dynamics365 but there will
                 also be other techs introduced throughout the challenge.
-                So if your poison is a JavaScript related, good old Java, oldish C#, node, PowerShell, bash, Flow, PowerApps, React Native -  it doesn't matter, 
+                So if your poison is a JavaScript related, good old Java, oldish C#, node, PowerShell, bash, Flow, PowerApps, React Native, Google API's -  it doesn't matter, 
                 anything goes as long as the end-users of your solution is happy.
               </P>
               <p>
