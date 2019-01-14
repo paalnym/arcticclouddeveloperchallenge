@@ -9,7 +9,39 @@
               <P>#ACDC2019 aims to stimulate collaborative learning, networking and stimulation of ideas for participants through <NOBR>hands-on,</NOBR> <NOBR>time-limited</NOBR> challenges. We are fiercely competitive, yet vastly helpful and extremely sharing (also across teams), realizing that collective learning is more important than personal gain!</P>
               <h4>About</h4>
               <P>The Arctic Cloud Developer Challenge was former known as The Arctic SharePoint Challenge. There has been a shift in the challenge focus from solely focusing on SharePoint to embracing all Microsoft's cloud tech.</P>
-              <P>The main focus this year will be on: Azure, Office 365 and Dynamics365 but there will also be other techs introduced throughout the challenge. The challenge is taking place:</P>
+              <P>The main focus this year will be on: Azure, Office 365 and Dynamics365 but there will
+                also be other techs introduced throughout the challenge.
+                So if your poison is a JavaScript related, good old Java, oldish C#, node, PowerShell, bash, Flow, PowerApps, React Native, Google API's -  it doesn't matter, 
+                anything goes as long as the end-users of your solution is happy.
+              </P>
+              <p>
+              ACDC is a bit different from other hackathons. While there are judges, points are being awarded in multiple categories.
+              The categories could be Azure usage, Dynamics 365 knowledge, Office 365 wizardry etc. The categories tend to change a little bit
+              each year, and we give our judges freedom to make sure it all works out :)
+              </p>
+              <p>
+              The hackathon is taking place over three days, and each team can each day gain from 0 to 100 points in each category,
+              depending on their achievement in said category. If you "won" a category one day, it does not mean you will the next.
+              At the end of each day the judges will go around to each team and you will present what you have worked on so far. Present
+              your idea and business case, and feel free to pitch what you have achieved within each category as well.
+              </p>
+              <p>
+              In addition to points within each category there might be special challenges being announced just in time for extra points.
+               During the event a public leaderboard will be available so that off-site people can follow the competition. Each team will
+               also get login to a blog, where they can write short posts about point solutions, or larger epics from their solution.
+               These points makes it easier for the judges to follow along on your work, and see the value - thus you might get more points :)
+              </p>
+              <p>
+              At the end of the three days, the top teams get to present their solution to all the other teams, and the winner is awarded
+              based on popular vote. This means, to win, you don't need to have the most points, and you can focus on some point categories, but
+              make an effort to be in the top three to ensure your hacker peers can vote for your awesome solution.
+              </p>
+              <p>
+              If you need help during the event our judges are there to help you out, and we also encourge teams to help each
+              other if they have an expert on an area. It's all about learning - but winning does feel good :)
+              </p>
+
+              <P>The challenge is taking place:</P>
               <P>Oslo, February 28<SPAN class="ft4">th </SPAN>to March 2<SPAN class="ft4">nd </SPAN>2019</P>
               <P>Keeping up the tradition, the Arctic SharePoint Challenge is being held in Oslo at Voksenåsen Hotel</P>
               <h4>Price</h4>
