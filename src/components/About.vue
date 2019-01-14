@@ -9,7 +9,11 @@
               <P>#ACDC2019 aims to stimulate collaborative learning, networking and stimulation of ideas for participants through <NOBR>hands-on,</NOBR> <NOBR>time-limited</NOBR> challenges. We are fiercely competitive, yet vastly helpful and extremely sharing (also across teams), realizing that collective learning is more important than personal gain!</P>
               <h4>About</h4>
               <P>The Arctic Cloud Developer Challenge was former known as The Arctic SharePoint Challenge. There has been a shift in the challenge focus from solely focusing on SharePoint to embracing all Microsoft's cloud tech.</P>
-              <P>The main focus this year will be on: Azure, Office 365 and Dynamics365 but there will also be other techs introduced throughout the challenge.</P>
+              <P>The main focus this year will be on: Azure, Office 365 and Dynamics365 but there will
+                also be other techs introduced throughout the challenge.
+                So if your poison is a JavaScript related, good old Java, oldish C#, node, PowerShell, bash, Flow, PowerApps, React Native -  it doesn't matter, 
+                anything goes as long as the end-users of your solution is happy.
+              </P>
               <p>
               ACDC is a bit different from other hackathons. While there are judges, points are being awarded in multiple categories.
               The categories could be Azure usage, Dynamics 365 knowledge, Office 365 wizardry etc. The categories tend to change a little bit
