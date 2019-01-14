@@ -5,7 +5,7 @@
         <div class="container">
           <div class="col-md-12">
            <DIV id="page_1">
-              <h3>Arctic Cloud Developer Challenge 2019</h3>
+              <h3 class="title">Arctic Cloud Developer Challenge 2019</h3>
               <P>#ACDC2019 aims to stimulate collaborative learning, networking and stimulation of ideas for participants through <NOBR>hands-on,</NOBR> <NOBR>time-limited</NOBR> challenges. We are fiercely competitive, yet vastly helpful and extremely sharing (also across teams), realizing that collective learning is more important than personal gain!</P>
               <h4>About</h4>
               <P>The Arctic Cloud Developer Challenge was former known as The Arctic SharePoint Challenge. There has been a shift in the challenge focus from solely focusing on SharePoint to embracing all Microsoft's cloud tech.</P>

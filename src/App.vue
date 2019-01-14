@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img id="logo" src="./assets/logo.png">
+    <img id="logo" src="./assets/logo-small.png">
     <Navigation></Navigation>
     <router-view/>
     <Footer></Footer>
@@ -28,9 +28,13 @@ export default {
   color: white;
   margin-top: 10px;
 }
+#app ul{
+  padding: 0;
+}
 #logo {
   height: auto;
-  width: 700px;
+  width: 300px;
+  margin-bottom: 15px;
 }
 .spacing {
   margin-right: 10px;
@@ -67,7 +71,6 @@ h6 {
   background: #122b7b;
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
   display: inline-block;
-  border-radius: 50px;
   position: relative;
   margin-bottom: 15px;
 }
@@ -209,6 +212,10 @@ h6 {
   background: #122b7b;
   padding: 20px;
 }
+.about .title {
+  text-align: center;
+  margin-bottom: 30px;
+}
 .about ul {
   list-style-type: none;
 }
@@ -227,7 +234,19 @@ h6 {
 .agenda {
   background: #122b7b;
   padding: 20px;
+  text-align: left;
 }
+.agenda .title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.agenda .card {
+  background: #122b7b;
+  border: 0;
+}
+.agenda .devider {
+  margin-left: 15%;
+} 
 .footer {
   background: black;
   padding-top: 20px;

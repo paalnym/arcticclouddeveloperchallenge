@@ -84,7 +84,7 @@
           <div class="col-md-12">
             <h2>Pricing</h2>
             <div class="pricing-coins"></div>
-            <h2>Price: NOK 7000 (ex. VAT)</h2>
+            <h4>Price: NOK 7000 (ex. VAT)</h4>
             <p>Includes:</p>
             <ul>
               <li>Challenge Participants Pass</li>
@@ -92,7 +92,7 @@
               <li>Breakfast Friday, Saturday and Sunday</li>
               <li>Lunch, coffee and small treats for the full duration</li>
               <li>Geekfood Thursday, three course dinner Friday and banquet dinner Saturday</li>
-              <li>Subsidized SharePints</li>
+              <li>Subsidized CloudPints</li>
             </ul>
           </div>
         </div>
@@ -102,7 +102,7 @@
           <div class="col-md-12">
             <h2>Signup</h2>
             <div class="col-lg-12">
-              <h2>This is the information we need:</h2>
+              <h4>This is the information we need:</h4>
               <ul>
                 <li>Team name</li>
                 <li>Company</li>
@@ -122,7 +122,7 @@
             <h2>Venue</h2>
             <div class="col-lg-12">
               <p>Venue is the venerable Voksenåsen Hotel, located in the hills surrounding Oslo.</p>
-              <p>We encourage all participants to stay at the hotel for the event. We will handle room bookings, and as you see from the conference fee most of what you'll need is covered so you can focus on waging SharePoint battle.</p>
+              <p>We encourage all participants to stay at the hotel for the event. We will handle room bookings, and as you see from the conference fee most of what you'll need is covered so you can focus on waging the ultimate cloud battle.</p>
             </div>
           </div>
         </div>
