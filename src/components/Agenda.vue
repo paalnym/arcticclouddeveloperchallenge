@@ -29,7 +29,7 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Friday 01 February</h5>
+                    <h5 class="card-name">Friday 01 March</h5>
                     <p class="card-text">
                        <ul>
                         <li>0800 Breakfast</li>
@@ -49,7 +49,7 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Saturday 02 February</h5>
+                    <h5 class="card-name">Saturday 02 March</h5>
                     <p class="card-text">
                        <ul>
                         <li>0800 Breakfast</li>
@@ -70,7 +70,7 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Sunday 03 February</h5>
+                    <h5 class="card-name">Sunday 03 March</h5>
                     <p class="card-text">
                        <ul>
                         <li>0800 Breakfast</li>
