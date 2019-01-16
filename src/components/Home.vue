@@ -70,7 +70,7 @@
                     <div class="card-chris"></div>
                     <h5 class="card-name">Chris Huntingford</h5>
                     <p class="card-text">
-                     Solution Architect at Hitachi Solutions, Ltd & Microsoft MVP in Business Applications.
+                      A passionate, overly enthusiastic, beer loving, drum smashing, guitar weilding Dynamics 365 & Power Platform Presales Solution architect and Business Applications MVP. Originally from South Africa, where he started working with Dynamics in the Microsoft channel 10 years ago. Chris has worked within multiple industries, multiple roles and within every module in Dynamics 365 Customer Engagement.
                     </p>
                   </div>
                 </div>

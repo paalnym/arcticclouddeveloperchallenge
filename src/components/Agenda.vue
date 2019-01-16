@@ -29,18 +29,18 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Thursday 28 February</h5>
+                    <h5 class="card-name">Friday 01 February</h5>
                     <p class="card-text">
                        <ul>
-                        <li>0800 Check-in and rigging</li>
-                        <li>0900 Welcome and Keynote</li>
-                        <li>1000 Team presentations</li>
-                        <li>1030 Challenge kick-off</li>
+                        <li>0800 Breakfast</li>
+                        <li>0900 Challenge session</li>
                         <li>1200 Lunch</li>
-                        <li>1215 Secret session</li>
+                        <li>1245 Secret session</li>
+                        <li>1430 Challenge session</li>
                         <li>1600 Jury Duty & Snacks</li>
                         <li>1900 Points & Crowns</li>
-                        <li>1900 Dinner & Geekbeer</li>
+                        <li>1930 Geekfood + Geekbeer</li>
+                        <li>2030 Kahoot</li>
                       </ul>                  
                     </p>
                 </div>
@@ -49,18 +49,19 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Thursday 28 February</h5>
+                    <h5 class="card-name">Saturday 02 February</h5>
                     <p class="card-text">
                        <ul>
-                        <li>0800 Check-in and rigging</li>
-                        <li>0900 Welcome and Keynote</li>
-                        <li>1000 Team presentations</li>
-                        <li>1030 Challenge kick-off</li>
+                        <li>0800 Breakfast</li>
+                        <li>0900 Challenge session</li>
                         <li>1200 Lunch</li>
-                        <li>1215 Secret session</li>
-                        <li>1600 Jury Duty & Snacks</li>
-                        <li>1900 Points & Crowns</li>
-                        <li>1900 Dinner & Geekbeer</li>
+                        <li>1600 Final Jury Delivery</li>
+                        <li>Clean out the hackaton room !</li>
+                        <li>1700 Free time + make awsome product presentations</li>
+                        <li>1900 Meetup @ bar</li>
+                        <li>1930 Challenge fine dinner</li>
+                        <li>2100 Demos & Awards</li>
+                        <li>2230 ACDC Party</li>
                       </ul>                  
                     </p>
                 </div>
@@ -69,18 +70,11 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Thursday 28 February</h5>
+                    <h5 class="card-name">Sunday 03 February</h5>
                     <p class="card-text">
                        <ul>
-                        <li>0800 Check-in and rigging</li>
-                        <li>0900 Welcome and Keynote</li>
-                        <li>1000 Team presentations</li>
-                        <li>1030 Challenge kick-off</li>
-                        <li>1200 Lunch</li>
-                        <li>1215 Secret session</li>
-                        <li>1600 Jury Duty & Snacks</li>
-                        <li>1900 Points & Crowns</li>
-                        <li>1900 Dinner & Geekbeer</li>
+                        <li>0800 Breakfast</li>
+                        <li>1100 Latest check-out</li>
                       </ul>                  
                     </p>
                 </div>

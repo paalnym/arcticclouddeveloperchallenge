@@ -241,6 +241,9 @@ h6 {
   padding: 20px;
   text-align: left;
 }
+.agenda ul {
+  list-style-type: none;
+}
 .agenda .title {
   text-align: center;
   margin-bottom: 30px;
