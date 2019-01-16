@@ -267,4 +267,10 @@ h6 {
 .lastyear .image {
   border: 0!important;
 }
+.lastyear .vue-lightbox ul {
+  max-width: 100%!important;
+}
+.lastyear .vue-lightbox ul li {
+  padding: 1px!important;
+}
 </style>
