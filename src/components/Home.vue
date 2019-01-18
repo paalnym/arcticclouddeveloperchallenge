@@ -59,7 +59,8 @@
                     <div class="card-laura"></div>
                     <h5 class="card-name">Laura Kokkarinen</h5>
                     <p class="card-text">
-                      Senior Developer at Sulava Oy. Laura has recently been awarded Microsoft MVP in Office Development and writes very insightful articles about Office 365. This is her first hackathon as a judge.
+                      Laura works as a senior developer at Sulava, specializing in SharePoint, Office 365 and Azure. She started working with SharePoint in 2011, doing development, farm maintenance and later on also consulting. Since then she has moved on to work with Office 365 and Azure. These days, her specialty is implementing customized solutions for Office 365 by utilizing Azure services, SharePoint Framework, different APIs, and the Power Platform.
+                      She has recently been awarded Microsoft MVP in Office Development and writes very insightful articles about Office 365. This is her first hackathon as a judge.
                     </p>
                   </div>
                 </div>
@@ -71,6 +72,7 @@
                     <h5 class="card-name">Chris Huntingford</h5>
                     <p class="card-text">
                       A passionate, overly enthusiastic, beer loving, drum smashing, guitar weilding Dynamics 365 & Power Platform Presales Solution architect and Business Applications MVP. Originally from South Africa, where he started working with Dynamics in the Microsoft channel 10 years ago. Chris has worked within multiple industries, multiple roles and within every module in Dynamics 365 Customer Engagement.
+                      Chris also got some Azure competency! He has worked with SQL DBs, Connected field service, all that type of thing, also he has done a load with Power BI.
                     </p>
                   </div>
                 </div>

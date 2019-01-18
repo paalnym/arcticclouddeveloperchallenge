@@ -20,8 +20,16 @@ export default {
 </script>
 
 <style>
+@import url('http://fonts.googleapis.com/css?family=Corben:bold');
+@import url('http://fonts.googleapis.com/css?family=Nobile');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nobile', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -196,6 +204,7 @@ h6 {
     fixed;
   background-size: cover;
 }
+
 .quickSummary h1 {
   color: white;
   font-weight: 900;
@@ -209,12 +218,10 @@ h6 {
   font-weight: 900;
 }
 .about {
-  background: #122b7b;
   padding: 20px;
+  text-align: left;
 }
 .about .title {
-  text-align: center;
-  margin-bottom: 30px;
   margin-top: 20px;
 }
 .about ul {
@@ -272,5 +279,10 @@ h6 {
 }
 .lastyear .vue-lightbox ul li {
   padding: 1px!important;
+}
+.acdc-wrapper {
+  width: 100%;
+  background: #122b7b;
+  overflow-wrap: break-word;
 }
 </style>

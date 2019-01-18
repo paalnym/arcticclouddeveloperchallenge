@@ -1,26 +1,28 @@
 <template>
-  <div>
-     <div class="container-fluid">
+ <div class="acdc-wrapper">
+    <div class="container">
       <div class="row contact">
-        <div class="container">
-          <div class="col-md-12">
-            <h3>Contact us !</h3>
-            <P>Follow Dexter the Lynx on <A href="https://twitter.com/intent/user?screen_name=SPChallenge"><SPAN class="ft11">@SPChallenge</SPAN></A> to be notified suddenly!</P>
-            <P>Check out our facebook page for more information and pictures from the previous Arctic SharePoint Challenge events.</P>
-            <P><A href="https://www.facebook.com/ArcticSharepointChallenge/">https://www.facebook.com/ArcticSharepointChallenge/</A></P>
-            <P>Feel free to contact any of the organizers for questions or comments about the event – or if you want information on how to sponsor the event:</P>
-            <P><SPAN></SPAN><SPAN>Mikael Svenson </SPAN><A href="mailto:mikael.svenson@puzzlepart.com"><SPAN>(</SPAN></A><A href="mailto:mikael.svenson@puzzlepart.com"><SPAN>mikael.svenson@puzzlepart.com</SPAN></A><A href="mailto:mikael.svenson@puzzlepart.com"><SPAN>)</SPAN></A></P>
-            <P><SPAN></SPAN><SPAN>Hussain </SPAN><NOBR>Al-Mousawi</NOBR> <A href="mailto:ha@infoworker.no"><SPAN>ha@infoworker.no</SPAN></A></P>
-            <P><SPAN></SPAN><SPAN>Pål Nymoen </SPAN><A href="mailto:pal.nymoen@bouvet.no"><SPAN>(</SPAN></A><A href="mailto:pal.nymoen@bouvet.no"><SPAN>pal.nymoen@bouvet.no</SPAN></A><A href="mailto:pal.nymoen@bouvet.no"><SPAN>)</SPAN></A></P>
-            <P><SPAN></SPAN><SPAN>Ulrikke Akerbæk </SPAN><A href="mailto:ulrikke.akerbaek@skill.no"><SPAN>(</SPAN></A><A href="mailto:ulrikke.akerbaek@skill.no"><SPAN>ulrikke.akerbaek@skill.no</SPAN></A><A href="mailto:ulrikke.akerbaek@skill.no"><SPAN>)</SPAN></A></P>
-            <P><SPAN></SPAN><SPAN>Jarle </SPAN><NOBR><SPAN>Røed-Engseth</SPAN></NOBR><SPAN> </SPAN><NOBR><A href="mailto:jarle.roed-engseth@skill.no"><SPAN>(</SPAN></A><A href="mailto:jarle.roed-engseth@skill.no"><SPAN>jarle.roed-engseth@skill.no</SPAN></A><A href="mailto:jarle.roed-engseth@skill.no"><SPAN>)</SPAN></A></NOBR></P>
-            <P><SPAN></SPAN><SPAN>Hlynur Runarsson </SPAN><A href="mailto:hlynur.runarsson@soprasteria.com"><SPAN>(</SPAN></A><A href="mailto:hlynur.runarsson@soprasteria.com"><SPAN>hlynur.runarsson@soprasteria.com</SPAN></A><A href="mailto:hlynur.runarsson@soprasteria.com"><SPAN>)</SPAN></A></P>
-            <P><SPAN></SPAN><SPAN>Carlos Briceno </SPAN><A href="mailto:carlos.briceno@acando.no"><SPAN>(</SPAN></A><A href="mailto:carlos.briceno@acando.no"><SPAN>carlos.briceno@acando.no</SPAN></A><A href="mailto:carlos.briceno@acando.no"><SPAN>)</SPAN></A></P>
+        <div class="col-md-12">
+          <h3 class="title">Contact us!</h3>
+            <p>
+              Follow Dexter the Lynx on 
+              <a href="https://twitter.com/intent/user?screen_name=SPChallenge"><span>@SPChallenge</span></a>
+               to be notified suddenly!
+            </P>
+            <p>Check out our facebook page for more information and pictures from the previous Arctic SharePoint Challenge events.</p>
+            <p><a href="https://www.facebook.com/ArcticCloudDeveloperChallenge/">https://www.facebook.com/ArcticCloudDeveloperChallenge/</a></p>
+            <p>Feel free to contact any of the organizers for questions or comments about the event – or if you want information on how to sponsor the event:</p>
+            <p><span>Mikael Svenson </span><a href="mailto:mikael.svenson@puzzlepart.com"><span>(mikael.svenson@puzzlepart.com)</span></a></p>
+            <p><span>Hussain Al-Mousawi </span><a href="mailto:ha@infoworker.no"><span>(ha@infoworker.no)</span></a></p>
+            <p><span>Pål Nymoen </span><a href="mailto:pal.nymoen@bouvet.no"><span>(pal.nymoen@bouvet.no)</span></a></p>
+            <p><span>Ulrikke Akerbæk </span><a href="mailto:ulrikke.akerbaek@skill.no"><span>(ulrikke.akerbaek@skill.no)</span></a></p>
+            <p><span>Jarle Røed-Engseth </span><a href="mailto:jarle.roed-engseth@skill.no"><span>(jarle.roed-engseth@skill.no)</span></a></p>
+            <p><span>Hlynur Runarsso </span><a href="mailto:hlynur.runarsson@soprasteria.com"><span>(hlynur.runarsson@soprasteria.com)</span></a></p>
+            <p><span>Carlos Briceno </span><a href="mailto:carlos.briceno@acando.no"><span>(carlos.briceno@acando.no)</span></a></p>
           </div>
         </div>
       </div>
     </div> 
-  </div>
 </template>
 
 <script>
