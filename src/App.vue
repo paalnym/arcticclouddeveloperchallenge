@@ -20,8 +20,8 @@ export default {
 </script>
 
 <style>
-@import url('http://fonts.googleapis.com/css?family=Corben:bold');
-@import url('http://fonts.googleapis.com/css?family=Nobile');
+@import url('https://fonts.googleapis.com/css?family=Corben:bold');
+@import url('https://fonts.googleapis.com/css?family=Nobile');
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Nobile', Georgia, Times, serif;
