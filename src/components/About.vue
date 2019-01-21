@@ -130,7 +130,12 @@
 
 <script>
 export default {
-  name: "about" //this is the name of the component
+  name: "about", //this is the name of the component
+  methods: {
+    track () {
+      this.$ga.page('/')
+    }
+  }
 };
 </script>
 <style>

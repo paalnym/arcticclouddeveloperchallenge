@@ -91,7 +91,12 @@
 
 <script>
 export default {
-  name: 'Agenda' //this is the name of the component
+  name: 'Agenda', //this is the name of the component
+  methods: {
+    track () {
+      this.$ga.page('/')
+    }
+  }
 }
 </script>
 <style>

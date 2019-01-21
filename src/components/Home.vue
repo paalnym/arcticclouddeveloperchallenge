@@ -41,14 +41,15 @@
                 </div>
               </div>
             </div>
-            <div class="row judge-devider">
-              <div class="col-sm-6">
+             <div class="row judge-devider">
+               <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <div class="card-marius"></div>
-                    <h5 class="card-name">Marius Agur Hagelund Lind</h5>
+                    <div class="card-chris"></div>
+                    <h5 class="card-name">Chris Huntingford</h5>
                     <p class="card-text">
-                      Owner at Marius Agur Consulting and a Microsoft MVP in Business Applications. This CRMViking has both been a participant and judge before, so he knows what’s going on – most importantly, he can explain the points system.
+                      A passionate, overly enthusiastic, beer loving, drum smashing, guitar weilding Dynamics 365 & Power Platform Presales Solution architect and Business Applications MVP. Originally from South Africa, where he started working with Dynamics in the Microsoft channel 10 years ago. Chris has worked within multiple industries, multiple roles and within every module in Dynamics 365 Customer Engagement.
+                      Chris also got some Azure competency! He has worked with SQL DBs, Connected field service, all that type of thing, also he has done a load with Power BI.
                     </p>
                   </div>
                 </div>
@@ -65,14 +66,15 @@
                   </div>
                 </div>
               </div>
-               <div class="col-sm-6">
+            </div>
+            <div class="row judge-devider">
+              <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <div class="card-chris"></div>
-                    <h5 class="card-name">Chris Huntingford</h5>
+                    <div class="card-marius"></div>
+                    <h5 class="card-name">Marius Agur Hagelund Lind</h5>
                     <p class="card-text">
-                      A passionate, overly enthusiastic, beer loving, drum smashing, guitar weilding Dynamics 365 & Power Platform Presales Solution architect and Business Applications MVP. Originally from South Africa, where he started working with Dynamics in the Microsoft channel 10 years ago. Chris has worked within multiple industries, multiple roles and within every module in Dynamics 365 Customer Engagement.
-                      Chris also got some Azure competency! He has worked with SQL DBs, Connected field service, all that type of thing, also he has done a load with Power BI.
+                      Owner at Marius Agur Consulting and a Microsoft MVP in Business Applications. This CRMViking has both been a participant and judge before, so he knows what’s going on – most importantly, he can explain the points system.
                     </p>
                   </div>
                 </div>
@@ -135,7 +137,12 @@
 
 <script>
 export default {
-  name: "Home" //this is the name of the component
+  name: "Home",
+  methods: {
+    track () {
+      this.$ga.page('/')
+    }
+  } //this is the name of the component
 };
 </script>
 <style>

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img id="logo" src="./assets/logo-small.png">
+    <a href="#/home"><img id="logo" src="./assets/logo-small.png"></a>
     <Navigation></Navigation>
     <router-view/>
     <Footer></Footer>
@@ -10,6 +10,7 @@
 <script>
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+
 export default {
   name: "app",
   components: {
@@ -227,10 +228,7 @@ h6 {
 .about ul {
   list-style-type: none;
 }
-.sponsors {
-  background: #122b7b;
-  padding: 20px;
-}
+
 .lastyear {
   background: #122b7b;
   padding: 20px;
@@ -284,5 +282,97 @@ h6 {
   width: 100%;
   background: #122b7b;
   overflow-wrap: break-word;
+}
+.sponsors {
+  background: #122b7b;
+  padding: 20px;
+}
+.sponsors .card {
+  background: #122b7b;
+  border: 0;
+}
+.sponsors .card-conzeon {
+  height: auto;
+  width: 400px;
+}
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+  .sponsors .card-conzeon {
+    height: auto;
+    width: 200px;
+  }
+  .quickSummary {
+    background: #05abe0;
+  }
+  .venue {
+    background: #FF7558
+  }
+  .venue-image {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .spacing {
+    margin-right: 0;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+ .sponsors .card-conzeon {
+    height: auto;
+    width: 200px;
+  }
+  .quickSummary {
+    background: white;
+    height: 300px;
+    background: url("./assets/simpsons-monorriel.png") no-repeat center center
+      fixed;
+    background-size: cover;
+  }
+  .venue {
+    background: #FF7558
+  }
+  .venue-image {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .spacing {
+    margin-right: 0;
+  }
+}
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+  .sponsors .card-conzeon {
+    height: auto;
+    width: 200px;
+  }
+  .quickSummary {
+    background: white;
+    height: 300px;
+    background: url("./assets/simpsons-monorriel.png") no-repeat center center
+      fixed;
+    background-size: cover;
+  }
+  .venue {
+    background: #FF7558
+  }
+  .venue-image {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .spacing {
+    margin-right: 0;
+  }
 }
 </style>

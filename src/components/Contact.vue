@@ -27,7 +27,12 @@
 
 <script>
 export default {
-  name: 'Contact' //this is the name of the component
+  name: 'Contact', //this is the name of the component
+  methods: {
+    track () {
+      this.$ga.page('/')
+    }
+  }
 }
 </script>
 <style>

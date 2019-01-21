@@ -1,22 +1,41 @@
 <template>
   <div>
-     <div class="container-fluid">
+    <div class="container-fluid">
       <div class="row sponsors">
-        <div class="container">
-          <div class="col-md-12">
-            <h3>List of sponsors comming soon</h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        <div class="col-md-12">
+          <h2 class="title">Sponsors ACDC 2019</h2>
+          <p>Arctic Cloud Developer Challenge 2019 would not come to life without these super awsome companies sponsoring the event !</p>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <a href="http://conzeon.se"><img class="card-conzeon" src="../assets/sponsors/conzeon-big.png"/></a>
+                 <!--  <h5 class="card-name">Conzeon</h5> -->
+                  <!-- <p class="card-text">
+                    Conzeon offers expert specialists for our customers.
+                    The driving force is to contribute with noticeable and lasting improvements for the companies we help.
+                    We offer expertise in system design, integration and system and web development within .NET.
+                    Specialists are available in .NET, SharePoint, SQL Server, Windows Azure and EPiServer.
+                  </p> -->
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div> 
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Sponsors' //this is the name of the component
-}
+  name: "Sponsors", //this is the name of the component
+  methods: {
+    track () {
+      this.$ga.page('/')
+    }
+  }
+};
 </script>
 <style>
 </style>

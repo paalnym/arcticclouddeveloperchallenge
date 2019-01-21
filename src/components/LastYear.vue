@@ -23,7 +23,12 @@ import Vue from "vue";
 Vue.use(lightbox);
 
 export default {
-  name: "LastYear", //this is the name of the component
+  name: "LastYear",
+  methods: {
+    track () {
+      this.$ga.page('/')
+    }
+  }, //this is the name of the component
   data: function() {
     return {
       ACDC2018: [
