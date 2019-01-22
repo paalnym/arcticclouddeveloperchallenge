@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <a href="#/home"><img id="logo" src="./assets/logo-small.png"></a>
+    <SponsorsHome></SponsorsHome>
     <Navigation></Navigation>
     <router-view/>
     <Footer></Footer>
@@ -10,12 +11,14 @@
 <script>
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import SponsorsHome from "./components/SponsorsHome";
 
 export default {
   name: "app",
   components: {
     Navigation: Navigation,
-    Footer: Footer
+    Footer: Footer,
+    SponsorsHome: SponsorsHome
   }
 };
 </script>
@@ -294,6 +297,16 @@ h6 {
 .sponsors .card-conzeon {
   height: auto;
   width: 400px;
+}
+.sponsorsHome {
+  text-align: center;
+}
+.sponsorsHome .card {
+  border: none;
+}
+.sponsorsHome .card-image {
+  height: auto;
+  width: 200px;
 }
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen 
