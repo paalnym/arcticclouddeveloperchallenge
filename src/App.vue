@@ -33,12 +33,14 @@ h1, h2, h3, h4, h5, h6 {
 p, div {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
+
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
   margin-top: 10px;
+  font-size: 18px;
 }
 #app ul{
   padding: 0;
@@ -84,7 +86,7 @@ h6 {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
   display: inline-block;
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .tabs a {
@@ -126,6 +128,14 @@ h6 {
 .quickSummary {
   border-color: #8200f4;
   padding: 40px;
+}
+.quickSummary .event-title {
+    font-size: 60px;
+    font-weight: 800; 
+}
+.quickSummary .event-date {
+    font-size: 35px;
+    font-weight: 600; 
 }
 .juryAndSpeakers {
   border-color: #8200f4;
@@ -173,33 +183,44 @@ h6 {
 }
 .juryAndSpeakers .judge-devider {
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 .juryAndSpeakers .card {
   background: #122b7b;
   border: 0;
 }
+.juryAndSpeakers .card-text {
+  width: 100%;
+}
 .juryAndSpeakers .card-seb {
   height: 300px;
   background: url("./assets/judges/seb.png") no-repeat center;
+  margin-bottom: 15px;
 }
 .juryAndSpeakers .card-erwin {
   height: 300px;
   background: url("./assets/judges/erwin.png") no-repeat center;
+  margin-bottom: 15px;
 }
 .juryAndSpeakers .card-marius {
   height: 300px;
   background: url("./assets/judges/marius.png") no-repeat center;
+  margin-bottom: 15px;
 }
 .juryAndSpeakers .card-laura {
   height: 300px;
   background: url("./assets/judges/laura.png") no-repeat center;
+  margin-bottom: 15px;
 }
 .juryAndSpeakers .card-chris {
   height: 300px;
   background: url("./assets/judges/chris.png") no-repeat center;
+  margin-bottom: 15px;
 }
 .juryAndSpeakers .card-name {
   padding-top: 10px;
+  font-size: 1.50rem;
+  font-weight: 600;
 }
 .quickSummary {
   background: white;
@@ -330,6 +351,14 @@ h6 {
   .spacing {
     margin-right: 0;
   }
+  .quickSummary .event-title {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .quickSummary .event-date {
+      padding-top: 15px;
+      font-size: 25px; 
+  }
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
@@ -359,6 +388,14 @@ h6 {
   .spacing {
     margin-right: 0;
   }
+  .quickSummary .event-title {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .quickSummary .event-date {
+      padding-top: 15px;
+      font-size: 25px; 
+  }
 }
 /* ----------- iPhone X ----------- */
 /* Portrait and Landscape */
@@ -386,6 +423,14 @@ h6 {
   }
   .spacing {
     margin-right: 0;
+  }
+  .quickSummary .event-title {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .quickSummary .event-date {
+      padding-top: 15px;
+      font-size: 25px; 
   }
 }
 </style>

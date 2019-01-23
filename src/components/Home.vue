@@ -4,8 +4,8 @@
       <div class="row quickSummary">
         <div class="container">
           <div class="col-md-12">
-            <h1>ACDC 2019 - The Simpsons</h1>
-            <h3>Oslo, 28 February - 02 March 2019</h3>
+            <div class="event-title">ACDC 2019 - The Simpsons</div>
+            <div class="event-date">Oslo, 28 February - 02 March 2019</div>
           </div>
         </div>
       </div>
@@ -14,7 +14,7 @@
           <div class="col-md-12">
             <h2>Jury and speakers</h2>
             <!--JURY AND SPEAKER SECTION, CHANGE THIS EACH YEAR-->
-            <p>The jury this year is an impressive collection of MVP’s and community celebrities from the world of Office 365, CRM, and Azure. The best part is that they are not just judging; they will be there to answer questions and guide you throughout the event.</p>
+            <p>The jury this year is an impressive collection of MVP’s and community celebrities from the world of Office 365, CRM, and Azure. The best part is that they are not just judging, they will be there to answer questions and guide you throughout the event.</p>
             <p>The jury will check your blogs about your deliverables and they will give a hint on how to get more points and be category kings.</p>
 
             <div class="row judge-devider">
