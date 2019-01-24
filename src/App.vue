@@ -65,7 +65,6 @@ body {
 
 h2 {
   margin: 0px;
-  text-transform: uppercase;
 }
 
 h6 {
@@ -130,12 +129,12 @@ h6 {
   padding: 40px;
 }
 .quickSummary .event-title {
-    font-size: 2 rem;
+    font-size: 55px;
     font-weight: 500;
     line-height: 1.2;
 }
 .quickSummary .event-date {
-    font-size: 1.5 rem;
+    font-size: 30px;
     font-weight: 500;
     line-height: 1.2; 
 }
@@ -317,7 +316,14 @@ h6 {
   background: #122b7b;
   border: 0;
 }
+.sponsors .card-text {
+  margin-top: 10px;
+}
 .sponsors .card-conzeon {
+  height: auto;
+  width: 400px;
+}
+.sponsors .card-pp {
   height: auto;
   width: 400px;
 }
@@ -327,7 +333,12 @@ h6 {
 .sponsorsHome .card {
   border: none;
 }
-.sponsorsHome .card-image {
+.sponsorsHome .card-conzeon {
+  height: auto;
+  width: 200px;
+  padding-top: 40px;
+}
+.sponsorsHome .card-pp {
   height: auto;
   width: 200px;
 }
@@ -337,6 +348,10 @@ h6 {
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2) { 
   .sponsors .card-conzeon {
+    height: auto;
+    width: 200px;
+  }
+  .sponsors .card-pp {
     height: auto;
     width: 200px;
   }
@@ -373,6 +388,10 @@ h6 {
     height: auto;
     width: 200px;
   }
+  .sponsors .card-pp {
+    height: auto;
+    width: 200px;
+  }
   .quickSummary {
     background: white;
     height: 300px;
@@ -406,6 +425,10 @@ h6 {
   and (max-device-width: 812px) 
   and (-webkit-min-device-pixel-ratio: 3) { 
   .sponsors .card-conzeon {
+    height: auto;
+    width: 200px;
+  }
+  .sponsors .card-pp {
     height: auto;
     width: 200px;
   }
