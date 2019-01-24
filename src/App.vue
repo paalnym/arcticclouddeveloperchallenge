@@ -130,12 +130,14 @@ h6 {
   padding: 40px;
 }
 .quickSummary .event-title {
-    font-size: 60px;
-    font-weight: 800; 
+    font-size: 2 rem;
+    font-weight: 500;
+    line-height: 1.2;
 }
 .quickSummary .event-date {
-    font-size: 35px;
-    font-weight: 600; 
+    font-size: 1.5 rem;
+    font-weight: 500;
+    line-height: 1.2; 
 }
 .juryAndSpeakers {
   border-color: #8200f4;
