@@ -327,6 +327,10 @@ h6 {
   height: auto;
   width: 400px;
 }
+.sponsors .card-accando {
+  height: auto;
+  width: 400px;
+}
 .sponsorsHome {
   text-align: center;
 }
@@ -342,6 +346,11 @@ h6 {
   height: auto;
   width: 200px;
 }
+.sponsorsHome .card-accando {
+  height: auto;
+  width: 200px;
+  padding-top: 40px;
+}
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen 
   and (min-device-width: 375px) 
@@ -352,6 +361,10 @@ h6 {
     width: 200px;
   }
   .sponsors .card-pp {
+    height: auto;
+    width: 200px;
+  }
+  .sponsors .card-accando {
     height: auto;
     width: 200px;
   }
@@ -392,6 +405,10 @@ h6 {
     height: auto;
     width: 200px;
   }
+  .sponsors .card-accando {
+    height: auto;
+    width: 200px;
+  }
   .quickSummary {
     background: white;
     height: 300px;
@@ -429,6 +446,10 @@ h6 {
     width: 200px;
   }
   .sponsors .card-pp {
+    height: auto;
+    width: 200px;
+  }
+  .sponsors .card-accando {
     height: auto;
     width: 200px;
   }

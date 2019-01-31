@@ -29,6 +29,15 @@
                   </p>
                 </div>
               </div>
+              <div class="card">
+                <div class="card-body">
+                  <a href="https://www.acando.no/"><img class="card-accando" src="../assets/sponsors/acando_logo_white.png"/></a>
+                 <!--  <h5 class="card-name">Conzeon</h5> -->
+                  <p class="card-text">
+                    With one of Norway's largest systems development and architecture environments, in addition to specialists in digital strategy and transformation, user experiences, machine learning, data analysis, IoT and management, Accando creates the future IT solutions for customers.
+                  </p>
+                </div>
+              </div>
             </div>
         </div>
       </div>
