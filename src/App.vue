@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <a href="#/home"><img id="logo" src="./assets/logo-small.png"></a>
+    <a href="#/home">
+      <img id="logo" src="./assets/logo-small.png">
+    </a>
     <SponsorsHome></SponsorsHome>
     <Navigation></Navigation>
     <router-view/>
@@ -24,14 +26,20 @@ export default {
 </script>
 
 <style>
-@import url('https://fonts.googleapis.com/css?family=Corben:bold');
-@import url('https://fonts.googleapis.com/css?family=Nobile');
+@import url("https://fonts.googleapis.com/css?family=Corben:bold");
+@import url("https://fonts.googleapis.com/css?family=Nobile");
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Nobile', Georgia, Times, serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nobile", Georgia, Times, serif;
 }
-p, div {
-    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+p,
+div {
+  font-family: "Nobile", Helvetica, Arial, sans-serif;
 }
 
 #app {
@@ -42,7 +50,7 @@ p, div {
   margin-top: 10px;
   font-size: 18px;
 }
-#app ul{
+#app ul {
   padding: 0;
 }
 #logo {
@@ -129,14 +137,14 @@ h6 {
   padding: 40px;
 }
 .quickSummary .event-title {
-    font-size: 55px;
-    font-weight: 500;
-    line-height: 1.2;
+  font-size: 55px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 .quickSummary .event-date {
-    font-size: 30px;
-    font-weight: 500;
-    line-height: 1.2; 
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 1.2;
 }
 .juryAndSpeakers {
   border-color: #8200f4;
@@ -220,7 +228,7 @@ h6 {
 }
 .juryAndSpeakers .card-name {
   padding-top: 10px;
-  font-size: 1.50rem;
+  font-size: 1.5rem;
   font-weight: 600;
 }
 .quickSummary {
@@ -262,8 +270,24 @@ h6 {
   background: #122b7b;
   padding: 20px;
 }
+
 .contact h3 {
   margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.categories {
+  background: #122b7b;
+  padding: 20px;
+}
+
+.categories .cats {
+  text-align: left;
+  columns: 2;
+  vertical-align: top;
+}
+
+.categories h3 {
   margin-bottom: 30px;
 }
 .agenda {
@@ -285,7 +309,7 @@ h6 {
 }
 .agenda .devider {
   margin-left: 15%;
-} 
+}
 .footer {
   background: black;
   padding-top: 20px;
@@ -295,13 +319,13 @@ h6 {
   margin-top: 20px;
 }
 .lastyear .image {
-  border: 0!important;
+  border: 0 !important;
 }
 .lastyear .vue-lightbox ul {
-  max-width: 100%!important;
+  max-width: 100% !important;
 }
 .lastyear .vue-lightbox ul li {
-  padding: 1px!important;
+  padding: 1px !important;
 }
 .acdc-wrapper {
   width: 100%;
@@ -352,10 +376,7 @@ h6 {
   padding-top: 40px;
 }
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .sponsors .card-conzeon {
     height: auto;
     width: 200px;
@@ -372,7 +393,7 @@ h6 {
     background: #05abe0;
   }
   .venue {
-    background: #FF7558
+    background: #ff7558;
   }
   .venue-image {
     padding-top: 0;
@@ -386,61 +407,14 @@ h6 {
     font-weight: 600;
   }
   .quickSummary .event-date {
-      padding-top: 15px;
-      font-size: 25px; 
+    padding-top: 15px;
+    font-size: 25px;
   }
 }
 
 /* ----------- iPhone 6+, 7+ and 8+ ----------- */
 /* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
- .sponsors .card-conzeon {
-    height: auto;
-    width: 200px;
-  }
-  .sponsors .card-pp {
-    height: auto;
-    width: 200px;
-  }
-  .sponsors .card-accando {
-    height: auto;
-    width: 200px;
-  }
-  .quickSummary {
-    background: white;
-    height: 300px;
-    background: url("./assets/simpsons-monorriel.png") no-repeat center center
-      fixed;
-    background-size: cover;
-  }
-  .venue {
-    background: #FF7558
-  }
-  .venue-image {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .spacing {
-    margin-right: 0;
-  }
-  .quickSummary .event-title {
-    font-size: 35px;
-    font-weight: 600;
-  }
-  .quickSummary .event-date {
-      padding-top: 15px;
-      font-size: 25px; 
-  }
-}
-/* ----------- iPhone X ----------- */
-/* Portrait and Landscape */
-@media only screen 
-  and (min-device-width: 375px) 
-  and (max-device-width: 812px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
   .sponsors .card-conzeon {
     height: auto;
     width: 200px;
@@ -461,7 +435,7 @@ h6 {
     background-size: cover;
   }
   .venue {
-    background: #FF7558
+    background: #ff7558;
   }
   .venue-image {
     padding-top: 0;
@@ -475,8 +449,49 @@ h6 {
     font-weight: 600;
   }
   .quickSummary .event-date {
-      padding-top: 15px;
-      font-size: 25px; 
+    padding-top: 15px;
+    font-size: 25px;
+  }
+}
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .sponsors .card-conzeon {
+    height: auto;
+    width: 200px;
+  }
+  .sponsors .card-pp {
+    height: auto;
+    width: 200px;
+  }
+  .sponsors .card-accando {
+    height: auto;
+    width: 200px;
+  }
+  .quickSummary {
+    background: white;
+    height: 300px;
+    background: url("./assets/simpsons-monorriel.png") no-repeat center center
+      fixed;
+    background-size: cover;
+  }
+  .venue {
+    background: #ff7558;
+  }
+  .venue-image {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .spacing {
+    margin-right: 0;
+  }
+  .quickSummary .event-title {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .quickSummary .event-date {
+    padding-top: 15px;
+    font-size: 25px;
   }
 }
 </style>
