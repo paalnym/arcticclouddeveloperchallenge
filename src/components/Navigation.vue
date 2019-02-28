@@ -7,9 +7,10 @@
         <router-link class="spacing" to="/about">About</router-link>
         <router-link class="spacing" to="/categories">Categories</router-link>
         <router-link class="spacing" to="/agenda">Agenda</router-link>
+        <router-link class="spacing" to="/scoring">Scoring</router-link>     
         <router-link class="spacing" to="/lastYear">Last Year</router-link>
         <router-link class="spacing" to="/contact">Contact</router-link>
-        <router-link class="spacing" to="/sponsors">Sponsors</router-link>        
+        <router-link class="spacing" to="/sponsors">Sponsors</router-link>                
       </nav>
     </div>
   </div>

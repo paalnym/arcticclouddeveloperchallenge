@@ -5,6 +5,7 @@ import Contact from '@/components/Contact'
 import About from '@/components/About'
 import Agenda from '@/components/Agenda'
 import Categories from '@/components/Categories'
+import Scoring from '@/components/Scoring'
 import LastYear from '@/components/LastYear'
 import Sponsors from '@/components/Sponsors'
 Vue.use(Router)
@@ -31,6 +32,11 @@ export default new Router({
       path: '/categories',
       name: 'categories',
       component: Categories
+    },
+    {
+      path: '/scoring',
+      name: 'scoring',
+      component: Scoring
     },
     {
       path: '/contact',
