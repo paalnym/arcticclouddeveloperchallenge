@@ -347,6 +347,10 @@ h6 {
   height: auto;
   width: 400px;
 }
+.sponsors .card-microsoft {
+  height: auto;
+  width: 400px;
+}
 .sponsors .card-pp {
   height: auto;
   width: 400px;
