@@ -7,19 +7,19 @@
         <router-link class="spacing" to="/about">About</router-link>
         <router-link class="spacing" to="/categories">Categories</router-link>
         <router-link class="spacing" to="/agenda">Agenda</router-link>
-        <router-link class="spacing" to="/scoring">Scoring</router-link>     
+        <router-link class="spacing" to="/scoring">Scoring</router-link>
+        <a :href="'https://acdcblog.azurewebsites.net/'" target="_blank">Blog</a>
         <router-link class="spacing" to="/lastYear">Last Year</router-link>
         <router-link class="spacing" to="/contact">Contact</router-link>
-        <router-link class="spacing" to="/sponsors">Sponsors</router-link>                
+        <router-link class="spacing" to="/sponsors">Sponsors</router-link>
       </nav>
     </div>
   </div>
 </template>
 <script>
-
 export default {
-  name: 'Navigation' //this is the name of the component
-}
+  name: "Navigation" //this is the name of the component
+};
 </script>
 <style>
 </style>
