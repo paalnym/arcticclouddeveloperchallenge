@@ -90,7 +90,7 @@ export default {
   .logo2right {
     padding-top: 35px;
     /* margin-left: 22px; */
-    left: 170 px;
+    left: 170px;
     position: absolute;
   }
 
