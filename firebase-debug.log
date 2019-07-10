@@ -1,0 +1,25 @@
+[debug] [2019-07-02T21:38:47.996Z] ----------------------------------------------------------------------
+[debug] [2019-07-02T21:38:48.000Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pnymoen\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-07-02T21:38:48.001Z] CLI Version:   6.4.0
+[debug] [2019-07-02T21:38:48.001Z] Platform:      win32
+[debug] [2019-07-02T21:38:48.001Z] Node Version:  v8.15.1
+[debug] [2019-07-02T21:38:48.003Z] Time:          Tue Jul 02 2019 23:38:48 GMT+0200 (W. Europe Daylight Time)
+[debug] [2019-07-02T21:38:48.003Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-07-02T21:38:48.020Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-07-02T21:38:48.021Z] > authorizing via signed-in user
+[debug] [2019-07-02T21:38:48.021Z] [iam] checking project acdc2019-3eff5 for permissions ["firebase.projects.get"]
+[debug] [2019-07-02T21:38:48.024Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/acdc2019-3eff5:testIamPermissions  
+
+[debug] [2019-07-02T21:38:49.739Z] <<< HTTP RESPONSE 200
+[debug] [2019-07-02T21:38:49.742Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/acdc2019-3eff5  
+ 
+[debug] [2019-07-02T21:38:50.716Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'c:\dev\ArcticCloudDeveloperChallenge'...
+[info] 
+[debug] [2019-07-02T21:38:50.723Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/502004224768/clients/_:getWebAppConfig  
+ 
+[debug] [2019-07-02T21:38:51.075Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist
+[info] +  hosting: Local server: http://localhost:5000

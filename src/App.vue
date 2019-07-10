@@ -1,24 +1,24 @@
 <template>
   <div id="app">
-    <a href="#/home">
+ <!--    <a href="#/home">
       <img id="logo" src="./assets/logo-small.png">
-    </a>
-    <SponsorsHome></SponsorsHome>
-    <Navigation></Navigation>
+    </a> -->
+ <!--    <SponsorsHome></SponsorsHome> -->
+    <Header></Header>
     <router-view/>
     <Footer></Footer>
   </div>
 </template> 
 
 <script>
-import Navigation from "./components/Navigation";
+import Header from "./components/Header";
 import Footer from "./components/Footer";
 import SponsorsHome from "./components/SponsorsHome";
 
 export default {
   name: "app",
   components: {
-    Navigation: Navigation,
+    Header: Header,
     Footer: Footer,
     SponsorsHome: SponsorsHome
   }
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css?family=Corben:bold");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:Light");
 @import url("https://fonts.googleapis.com/css?family=Nobile");
 
 h1,
@@ -35,11 +35,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Nobile", Georgia, Times, serif;
+  font-family: "Roboto Condensed", Georgia, Times, serif;
 }
 p,
 div {
-  font-family: "Nobile", Helvetica, Arial, sans-serif;
+  font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 
 #app {
@@ -53,16 +53,31 @@ div {
 #app ul {
   padding: 0;
 }
-#logo {
-  height: auto;
-  width: 300px;
-  margin-bottom: 15px;
+.logo1left {
+  float: left;
+  padding-top:45px;
+}
+.logo2right {
+  float: right;
+  padding-top:50px;
+}
+.logo1 {
+  height: 35px;
+  width: 130px;
+}
+.logo2 {
+  height: 20px;
+  width: 330px;
 }
 .spacing {
-  margin-right: 10px;
+  margin-right: 5px;
 }
 .NavigationBar {
-  background-color: lightgrey;
+  background-color: #27343C;
+}
+.header {
+  background-color: #27343C; 
+  height: 102px; 
 }
 
 @import url("https://fonts.googleapis.com/css?family=Roboto");
@@ -85,22 +100,20 @@ h6 {
 }
 
 .tabs {
-  width: 100%;
-  font-size: 15px;
-  padding: 0px;
+  font-size: 18px;
+  padding-top: 50px;
   list-style: none;
-  background: #122b7b;
-  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  background: #27343C;
   display: inline-block;
   position: relative;
-  margin-bottom: 10px;
+  float: right;
 }
 
 .tabs a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
-  padding: 10px 20px;
+  padding: 3px;
   display: inline-block;
   position: relative;
   z-index: 1;
@@ -233,10 +246,42 @@ h6 {
 }
 .quickSummary {
   background: white;
-  height: 300px;
-  background: url("./assets/simpsons-monorriel.png") no-repeat center center
+  height: 1280px;
+  background: url("./assets/isai-ramos-46821-unsplash.png") no-repeat center center
     fixed;
   background-size: cover;
+}
+
+.rectangle {
+  height: 640px;
+  border: solid 13px;
+  margin: 80px;
+}
+
+.dragonHeadLeft {
+  float: left;
+  width: 85px;
+  height: 65px;
+  background: url("./assets/dragenhead_white_trans.png") no-repeat center;
+  margin-top: -40px;
+  margin-left: 18px;
+}
+
+.dragonHeadRight {
+  float: right;
+  width: 85px;
+  height: 65px;
+  background: url("./assets/dragenhead_right_white_trans.png") no-repeat center;
+  margin-top: -40px;
+  margin-right: 18px;
+}
+
+.logo1Rect {
+
+}
+
+.logo2Rect {
+  
 }
 
 .quickSummary h1 {

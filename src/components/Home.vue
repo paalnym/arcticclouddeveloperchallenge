@@ -4,8 +4,12 @@
       <div class="row quickSummary">
         <div class="container">
           <div class="col-md-12">
-            <div class="event-title">ACDC 2019 - The Simpsons</div>
-            <div class="event-date">Oslo, 28 February - 02 March 2019</div>
+            <div class="dragonHeadLeft"></div>
+            <div class="dragonHeadRight"></div>  
+            <div class="rectangle">
+              <div class="logo1Rect"></div>
+              <div class="logo2Rect"></div>
+            </div>   
           </div>
         </div>
       </div>
