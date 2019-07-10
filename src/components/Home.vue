@@ -7,8 +7,12 @@
             <div class="dragonHeadLeft"></div>
             <div class="dragonHeadRight"></div>  
             <div class="rectangle">
-              <div class="logo1Rect"></div>
-              <div class="logo2Rect"></div>
+              <div>
+                <img class="logo1Rect" src="../assets/logo/acdc_white_trans.png">
+              </div>
+              <div class="divider"></div>
+              <h1 class="title">VIKINGS ARE COMING</h1>
+              <h3 class="date">February 6th-9th 2020</h3>
             </div>   
           </div>
         </div>
@@ -150,4 +154,119 @@ export default {
 };
 </script>
 <style>
+  .quickSummary {
+    background: white;
+    background: url("../assets/isai-ramos-46821-unsplash.png") no-repeat center;
+    background-size: cover;
+    height: 30%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .quickSummary .event-title {
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .quickSummary .event-date {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+  }
+  .rectangle {
+    height: 640px;
+    border: solid 10px;
+    margin-top: 50px;
+  }
+  .dragonHeadLeft {
+    float: left;
+    width: 85px;
+    height: 65px;
+    background: url("../assets/dragenhead_white_trans.png") no-repeat center;
+    margin-top: -44px;
+    margin-left: -61px;
+  }
+  .dragonHeadRight {
+    float: right;
+    width: 85px;
+    height: 65px;
+    background: url("../assets/dragenhead_right_white_trans.png") no-repeat center;
+    margin-top: -50px;
+    margin-right: -56px;
+  }
+  .logo1Rect {
+    height: 20%;
+    width: 45%;
+    padding-top: 70px;
+  }
+  .quickSummary h1 {
+    color: white;
+    padding-bottom: 15px;
+  }
+  .quickSummary h3 {
+    color: white;
+  }
+  .quickSummary p {
+    color: black;
+    font-weight: 900;
+  }
+  .divider {
+    border: 1px solid white;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+    /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .dragonHeadLeft {
+    visibility: hidden;
+  }
+  .dragonHeadRight {
+    visibility: hidden;
+  }
+  .rectangle {
+    margin-top: 0!important;
+    border: solid 5px;
+  }
+  .logo2 {
+    height: 10px;
+    width: 200px;
+  }
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .dragonHeadLeft {
+    visibility: hidden;
+  }
+  .dragonHeadRight {
+    visibility: hidden;
+  }
+   .rectangle {
+    margin-top: 0!important;
+    border: solid 5px;
+  }
+  .logo2 {
+    height: 10px;
+    width: 200px;
+  }
+}
+/* ----------- iPhone X ----------- */
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .dragonHeadLeft {
+    visibility: hidden;
+  }
+  .dragonHeadRight {
+    visibility: hidden;
+  }
+   .rectangle {
+    margin-top: 0!important;
+    border: solid 5px;
+  }
+  .logo2 {
+    height: 10px;
+    width: 200px;
+  }
+}
 </style>

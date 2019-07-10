@@ -41,49 +41,19 @@ p,
 div {
   font-family: "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
-
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: white;
-  margin-top: 10px;
   font-size: 18px;
 }
 #app ul {
   padding: 0;
 }
-.logo1left {
-  float: left;
-  padding-top:45px;
-}
-.logo2right {
-  float: right;
-  padding-top:50px;
-}
-.logo1 {
-  height: 35px;
-  width: 130px;
-}
-.logo2 {
-  height: 20px;
-  width: 330px;
-}
-.spacing {
-  margin-right: 5px;
-}
-.NavigationBar {
-  background-color: #27343C;
-}
-.header {
-  background-color: #27343C; 
-  height: 102px; 
-}
-
-@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", Georgia, Times, serif;
 }
 
 h2 {
@@ -99,66 +69,6 @@ h6 {
   text-align: center;
 }
 
-.tabs {
-  font-size: 18px;
-  padding-top: 50px;
-  list-style: none;
-  background: #27343C;
-  display: inline-block;
-  position: relative;
-  float: right;
-}
-
-.tabs a {
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-  padding: 3px;
-  display: inline-block;
-  position: relative;
-  z-index: 1;
-  transition-duration: 0.6s;
-}
-
-.router-link-active {
-  color: #05abe0 !important;
-}
-
-.tabs a i {
-  margin-right: 5px;
-}
-
-.tabs .selector {
-  height: 100%;
-  display: inline-block;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  z-index: 1;
-  border-radius: 50px;
-  transition-duration: 0.6s;
-  transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-
-  background: #05abe0;
-  background: -moz-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
-  background: -webkit-linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
-  background: linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4',GradientType=1 );
-}
-.quickSummary {
-  border-color: #8200f4;
-  padding: 40px;
-}
-.quickSummary .event-title {
-  font-size: 55px;
-  font-weight: 500;
-  line-height: 1.2;
-}
-.quickSummary .event-date {
-  font-size: 30px;
-  font-weight: 500;
-  line-height: 1.2;
-}
 .juryAndSpeakers {
   border-color: #8200f4;
   padding: 40px;
@@ -244,58 +154,9 @@ h6 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.quickSummary {
-  background: white;
-  height: 1280px;
-  background: url("./assets/isai-ramos-46821-unsplash.png") no-repeat center center
-    fixed;
-  background-size: cover;
-}
 
-.rectangle {
-  height: 640px;
-  border: solid 13px;
-  margin: 80px;
-}
 
-.dragonHeadLeft {
-  float: left;
-  width: 85px;
-  height: 65px;
-  background: url("./assets/dragenhead_white_trans.png") no-repeat center;
-  margin-top: -40px;
-  margin-left: 18px;
-}
 
-.dragonHeadRight {
-  float: right;
-  width: 85px;
-  height: 65px;
-  background: url("./assets/dragenhead_right_white_trans.png") no-repeat center;
-  margin-top: -40px;
-  margin-right: 18px;
-}
-
-.logo1Rect {
-
-}
-
-.logo2Rect {
-  
-}
-
-.quickSummary h1 {
-  color: white;
-  font-weight: 900;
-}
-.quickSummary h3 {
-  color: white;
-  font-weight: 900;
-}
-.quickSummary p {
-  color: black;
-  font-weight: 900;
-}
 .about {
   padding: 20px;
   text-align: left;
