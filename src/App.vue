@@ -69,10 +69,7 @@ h6 {
   text-align: center;
 }
 
-.juryAndSpeakers {
-  border-color: #8200f4;
-  padding: 40px;
-}
+
 .pricing {
   border-color: #8200f4;
   padding: 40px;
@@ -109,50 +106,6 @@ h6 {
 .pricing-coins {
   height: 150px;
   background: url("./assets/coins.png") no-repeat center;
-}
-.juryAndSpeakers {
-  background: #122b7b;
-}
-.juryAndSpeakers .judge-devider {
-  margin-bottom: 15px;
-  margin-top: 15px;
-}
-.juryAndSpeakers .card {
-  background: #122b7b;
-  border: 0;
-}
-.juryAndSpeakers .card-text {
-  width: 100%;
-}
-.juryAndSpeakers .card-seb {
-  height: 300px;
-  background: url("./assets/judges/seb.png") no-repeat center;
-  margin-bottom: 15px;
-}
-.juryAndSpeakers .card-erwin {
-  height: 300px;
-  background: url("./assets/judges/erwin.png") no-repeat center;
-  margin-bottom: 15px;
-}
-.juryAndSpeakers .card-marius {
-  height: 300px;
-  background: url("./assets/judges/marius.png") no-repeat center;
-  margin-bottom: 15px;
-}
-.juryAndSpeakers .card-laura {
-  height: 300px;
-  background: url("./assets/judges/laura.png") no-repeat center;
-  margin-bottom: 15px;
-}
-.juryAndSpeakers .card-chris {
-  height: 300px;
-  background: url("./assets/judges/chris.png") no-repeat center;
-  margin-bottom: 15px;
-}
-.juryAndSpeakers .card-name {
-  padding-top: 10px;
-  font-size: 1.5rem;
-  font-weight: 600;
 }
 
 

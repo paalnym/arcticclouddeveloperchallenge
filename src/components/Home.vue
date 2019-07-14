@@ -1,146 +1,86 @@
 <template>
-  <div>
-    <div class="container-fluid">
-      <div class="row quickSummary">
-        <div class="container">
-          <div class="col-md-12">
-            <div class="dragonHeadLeft"></div>
-            <div class="dragonHeadRight"></div>  
-            <div class="rectangle">
-              <div>
-                <img class="logo1Rect" src="../assets/logo/acdc_white_trans.png">
-              </div>
-              <div class="divider"></div>
-              <h1 class="title">VIKINGS ARE COMING</h1>
-              <h3 class="date">February 6th-9th 2020</h3>
-            </div>   
-          </div>
-        </div>
-      </div>
-      <div class="row juryAndSpeakers">
-        <div class="container">
-          <div class="col-md-12">
-            <h2>Jury and speakers</h2>
-            <!--JURY AND SPEAKER SECTION, CHANGE THIS EACH YEAR-->
-            <p>The jury this year is an impressive collection of MVP’s and community celebrities from the world of Office 365, CRM, and Azure. The best part is that they are not just judging, they will be there to answer questions and guide you throughout the event.</p>
-            <p>The jury will check your blogs about your deliverables and they will give a hint on how to get more points and be category kings.</p>
-
-            <div class="row judge-devider">
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="card-seb"></div>
-                    <h5 class="card-name">Seb Matthews</h5>
-                    <p class="card-text">
-                      Consultant. Tech Leader. Investor. Speaker. Privacy. Information Management. Microsoft Fan. Seb is an all around nice guy, being a returning judge, and knowledgeable about most things Microsoft. Among his many ventures he is also employed as a technology futurist at NASA.                  
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="card-erwin"></div>
-                    <h5 class="card-name">Erwin Van Hunen</h5>
-                    <p class="card-text">
-                      Product Manager at Rencore. Erwin is a Microsoft MVP in Office Apps and Services, he’s also a Microsoft Certified Master, and a core member of the Microsoft SharePoint Patterns and Practices (PnP) team. Erwin is somewhat of a PowerShell wizard, and participated once before in the event, where his team lost – now he’s back to judge them all!
-                    </p>
-                  </div>
-                </div>
-              </div>
+  <div class="container-fluid">
+    <div class="row quickSummary">
+      <div class="container">
+        <div class="col-md-12">
+          <div class="dragonHeadLeft"></div>
+          <div class="dragonHeadRight"></div>  
+          <div class="rectangle">
+            <div>
+              <img class="logo1Rect" src="../assets/logo/acdc_white_trans.png">
             </div>
-             <div class="row judge-devider">
-               <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="card-chris"></div>
-                    <h5 class="card-name">Chris Huntingford</h5>
-                    <p class="card-text">
-                      A passionate, overly enthusiastic, beer loving, drum smashing, guitar weilding Dynamics 365 & Power Platform Presales Solution architect and Business Applications MVP. Originally from South Africa, where he started working with Dynamics in the Microsoft channel 10 years ago. Chris has worked within multiple industries, multiple roles and within every module in Dynamics 365 Customer Engagement.
-                      Chris also got some Azure competency! He has worked with SQL DBs, Connected field service, all that type of thing, also he has done a load with Power BI.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="card-laura"></div>
-                    <h5 class="card-name">Laura Kokkarinen</h5>
-                    <p class="card-text">
-                      Laura works as a senior developer at Sulava, specializing in SharePoint, Office 365 and Azure. She started working with SharePoint in 2011, doing development, farm maintenance and later on also consulting. Since then she has moved on to work with Office 365 and Azure. These days, her specialty is implementing customized solutions for Office 365 by utilizing Azure services, SharePoint Framework, different APIs, and the Power Platform.
-                      She has recently been awarded Microsoft MVP in Office Development and writes very insightful articles about Office 365. This is her first hackathon as a judge.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row judge-devider">
-              <div class="col-sm-6">
-                <div class="card">
-                  <div class="card-body">
-                    <div class="card-marius"></div>
-                    <h5 class="card-name">Marius Agur Hagelund Lind</h5>
-                    <p class="card-text">
-                      Owner at Marius Agur Consulting and a Microsoft MVP in Business Applications. This CRMViking has both been a participant and judge before, so he knows what’s going on – most importantly, he can explain the points system.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row pricing">
-        <div class="container">
-          <div class="col-md-12">
-            <h2>Pricing</h2>
-            <div class="pricing-coins"></div>
-            <h4>Price: NOK 7000 (ex. VAT)</h4>
-            <p>Includes:</p>
-            <ul>
-              <li>Challenge Participants Pass</li>
-              <li>Three nights in single bedroom at onsite hotel</li>
-              <li>Breakfast Friday, Saturday and Sunday</li>
-              <li>Lunch, coffee and small treats for the full duration</li>
-              <li>Geekfood Thursday, three course dinner Friday and banquet dinner Saturday</li>
-              <li>Subsidized CloudPints</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <div class="row signup">
-        <div class="container">
-          <div class="col-md-12">
-            <h2>Signup</h2>
-            <div class="col-lg-12">
-              <h4>This is the information we need:</h4>
-              <ul>
-                <li>Team name</li>
-                <li>Company</li>
-                <li>Team Leader</li>
-                <li>Twitter hashtag (if you have)</li>
-              </ul>
-              <p>By signing up you commit to the non-refundable signup fee. Companies can change the team-members after signing up, but if number of attendees is reduced, signup fees will still be charged your company. (In Norwegian: Påmeldingen er bindende).</p>
-              <h4><A href="mailto:mikael.svenson@puzzlepart.com">1. Register your team by sending us an email with the information above</A></h4>
-              <h4><A href="https://forms.office.com/Pages/ResponsePage.aspx?id=-bM9M7wUjUOYLzc2t8hWPj0x9ZVnyi1MuYITgulpX8FUOFBJREpLOFY1QzZMNzJYQ1FUWU5ZUlhDTyQlQCN0PWcu&fbclid=IwAR1gtPQrSpvipHOLHA4Z-gRakL4kZJeLPlTiZO-aHSNdkraHeXEbr6b7WpM">2. Register your team members</A></h4>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row venue">
-        <div class="container venue-image">
-          <div class="col-md-12">
-            <h2>Venue</h2>
-            <div class="col-lg-12">
-              <p>Venue is the venerable Voksenåsen Hotel, located in the hills surrounding Oslo.</p>
-              <p>We encourage all participants to stay at the hotel for the event. We will handle room bookings, and as you see from the conference fee most of what you'll need is covered so you can focus on waging the ultimate cloud battle.</p>
-            </div>
-          </div>
+            <div class="divider"></div>
+            <h1 class="title">VIKINGS ARE COMING</h1>
+            <h3 class="date">February 6th-9th 2020</h3>
+          </div>   
         </div>
       </div>
     </div>
-  </div>
+    <div class="row theAward">
+        <div class="container">
+          <div class="antlersStraight"></div>
+          <div class="antlersDivider"></div>
+          <div class="antlersDivider"></div>
+          <div class="theAwardTitle">
+            THE AWARD
+          </div>
+          <div class="antlersDivider"></div>
+          <div class="antlersDivider"></div>
+          <div class="antlersScewed"></div>
+          <div class="theAwardContent">
+            The winning team get to take home the ANTLERS to keep until next challenge 
+            <br>
+            <br>
+            And all the glory they can carry
+          </div>
+          <div class="categoriesTitle">
+            CATEGORIES
+          </div>
+          <div class="col-md-12">
+            <div class="row">
+                 <div class="col-md-6">
+                   <div class="col-md-3">
+                      <h3>Willy's shed</h3>
+                      <p>
+                        Power users love tools and flexibility, so why not show them some by using tools available to the average
+                        office and line worker out there.
+                      </p>
+                    </div>
+                    <div class="col-md-3">
+                      <h3>Automated Teller Machineyolatrolamaton</h3>
+                      <p>Cash is king, and nothing says cash like great business value.</p>
+                    </div>
+                  </div>
+              </div>
+         
+            <br/>
+            <h3>Obey the hypnotoad</h3>
+            <p>
+              Everything is so pretty, I can't take my eyes away! Applications are not all about functionality, they have to
+              look pretty as well - why else have design manuals?
+            </p>
+            <br/>
+            <h3>The genesis tub</h3>
+            <p>All the tiny things, connected and online. Bring your IoT to the science fair!</p>
+            <br/>
+            <h3>Automated Teller Machineyolatrolamaton</h3>
+            <p>Cash is king, and nothing says cash like great business value.</p>
+            <br/>
+            <h3>Bite my shiny metal ass</h3>
+            <p>
+              Use non-Microsoft tech in meaningful ways, or just out of spite (and if you didn't catch the reference,
+              Bender's quote is not from the Simpsons).
+            </p>
+            <br/>
+            <h3>Come bowling!</h3>
+            <p>
+              Be a happy camper, spread the love, show your amazing team spirit! This is not about tech, this is about feeling
+              the happy blues.
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
 </template>
 
 <script>
@@ -156,9 +96,9 @@ export default {
 <style>
   .quickSummary {
     background: white;
-    background: url("../assets/isai-ramos-46821-unsplash.png") no-repeat center;
+    background: url("../assets/images/isai-ramos-46821-unsplash.png") no-repeat center;
     background-size: cover;
-    height: 30%;
+    height: 40%;
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -173,30 +113,10 @@ export default {
     line-height: 1.2;
   }
   .rectangle {
-    height: 640px;
     border: solid 10px;
-    margin-top: 50px;
-  }
-  .dragonHeadLeft {
-    float: left;
-    width: 85px;
-    height: 65px;
-    background: url("../assets/dragenhead_white_trans.png") no-repeat center;
-    margin-top: -44px;
-    margin-left: -61px;
-  }
-  .dragonHeadRight {
-    float: right;
-    width: 85px;
-    height: 65px;
-    background: url("../assets/dragenhead_right_white_trans.png") no-repeat center;
-    margin-top: -50px;
-    margin-right: -56px;
-  }
-  .logo1Rect {
-    height: 20%;
-    width: 45%;
-    padding-top: 70px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 90px;
   }
   .quickSummary h1 {
     color: white;
@@ -216,6 +136,70 @@ export default {
     margin-top: 5%;
     margin-bottom: 5%;
   }
+  .dragonHeadLeft {
+    float: left;
+    width: 85px;
+    height: 65px;
+    background: url("../assets/images/dragenhead_white_trans.png") no-repeat center;
+    margin-top: -44px;
+    margin-left: -61px;
+  }
+  .dragonHeadRight {
+    float: right;
+    width: 85px;
+    height: 65px;
+    background: url("../assets/images/dragenhead_right_white_trans.png") no-repeat center;
+    margin-top: -50px;
+    margin-right: -56px;
+  }
+  .logo1Rect {
+    height: 20%;
+    width: 45%;
+    padding-top: 70px;
+  }
+  .theAward {
+    background: white;
+    background: url("../assets/images/matthew-kerslake-1641860-unsplash.png") no-repeat center;
+    background-size: cover;
+    height: 40%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+  }
+  .antlersStraight {
+    height: 65px;
+    background: url("../assets/images/antlers_dark_trans.png") no-repeat center;
+    margin-bottom: -9px;
+  }
+  .antlersScewed {
+    height: 65px;
+    background: url("../assets/images/antlers_dark_trans.png") no-repeat center;
+    transform: rotate(180deg);
+    margin-left: 35px;
+    margin-top: -18px;
+  }
+  .antlersDivider {
+    border: 2px solid #27343C;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .theAwardTitle {
+    color: #27343C;
+    font-size: 61px;
+  }
+  .theAwardContent {
+    margin-top: 80px;
+    color: #27343C;
+    font-size: 50px;
+    margin-bottom: 80px;
+  }
+  .categoriesTitle {
+    color: #27343C;
+    text-align: left;
+    font-size: 61px;
+  }
+  .categoriesContent {
+    
+  }
     /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .dragonHeadLeft {
@@ -225,12 +209,25 @@ export default {
     visibility: hidden;
   }
   .rectangle {
-    margin-top: 0!important;
     border: solid 5px;
   }
   .logo2 {
     height: 10px;
     width: 200px;
+  }
+  .theAward {
+    padding-top: 70px;
+  }
+  .quickSummary {
+    padding-top: 0;
+  }
+  .theAwardTitle {
+    font-size: 2.5rem;
+  }
+  .theAwardContent {
+    margin-top: 60px;
+    font-size: 30px;
+    font-size: 1.75rem;
   }
 }
 
@@ -242,13 +239,23 @@ export default {
   .dragonHeadRight {
     visibility: hidden;
   }
-   .rectangle {
-    margin-top: 0!important;
+  .rectangle {
     border: solid 5px;
   }
   .logo2 {
     height: 10px;
     width: 200px;
+  }
+  .quickSummary {
+    padding-top: 0;
+  }
+  .theAwardTitle {
+    font-size: 2.5rem;
+  }
+  .theAwardContent {
+    margin-top: 60px;
+    font-size: 30px;
+    font-size: 1.75rem;
   }
 }
 /* ----------- iPhone X ----------- */
@@ -260,13 +267,23 @@ export default {
   .dragonHeadRight {
     visibility: hidden;
   }
-   .rectangle {
-    margin-top: 0!important;
+  .rectangle {
     border: solid 5px;
   }
   .logo2 {
     height: 10px;
     width: 200px;
+  }
+  .quickSummary {
+    padding-top: 0;
+  }
+  .theAwardTitle {
+    font-size: 2.5rem;
+  }
+  .theAwardContent {
+    margin-top: 60px;
+    font-size: 30px;
+    font-size: 1.75rem;
   }
 }
 </style>
