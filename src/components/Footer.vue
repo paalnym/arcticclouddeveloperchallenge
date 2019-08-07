@@ -18,4 +18,8 @@ export default {
 }
 </script>
 <style>
+.footer {
+  background: black;
+  padding-top: 20px;
+}
 </style>

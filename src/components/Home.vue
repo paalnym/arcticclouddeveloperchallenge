@@ -64,7 +64,7 @@
     </div>
     <div class="row thePriceToPay">
       <div class="container-fluid">
-          <div class="thePriceToPayContent">
+        <div class="thePriceToPayContent">
             <div class="thePriceToPayTitle">THE PRICE TO PAY</div>
               <p>Price: NOK 7000 (ex. VAT)</p> 
               <p>Includes:</p> 
@@ -75,10 +75,49 @@
               <p>Three course dinner Friday</p> 
               <p>Banquet dinner Saturday</p> 
               <p>Subsidized CloudPints</p>
-          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row judges">
+      <div class="container">
+        <div class="judgesContent">
+          <div class="judgesTitle">JUDGES</div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="judgeTitle">Sigvat Gellirsson</div>
+              <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
+              <div class="judgeDescription">
+                Power users love tools and flexibility, so why not show them some by using tools available to the average
+                office and line worker out there.
+              </div>
+
+             <div class="judgeTitle">Arnstein Hallfridsson</div>
+              <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
+              <div class="judgeDescription">
+                Power users love tools and flexibility, so why not show them some by using tools available to the average
+                office and line worker out there.
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="judgeTitle">Ingimund Olvirsson</div>
+              <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
+              <div class="judgeDescription">
+                Power users love tools and flexibility, so why not show them some by using tools available to the average
+                office and line worker out there.
+              </div>
+
+             <div class="judgeTitle">Toki Ketilbiornsson</div>
+              <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
+              <div class="judgeDescription">
+                Power users love tools and flexibility, so why not show them some by using tools available to the average
+                office and line worker out there.
+              </div>
+            </div>
+        </div>
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -238,6 +277,49 @@ export default {
   float: right;
   padding-right: 15%;
 }
+.judges {
+  background: #27343C;
+  background: url("../assets/images/lisa-obenauf-359856-unsplash.png")
+    no-repeat center;
+  background-size: cover;
+  padding-bottom: 40%;
+  opacity: 0.7;
+  color: #27343C;
+}
+.judgesTitle {
+  color: white;
+  font-size: 70px;
+  font-weight: bolder;
+  text-shadow: 1px 1px #27343c;
+  margin-bottom: 30px;
+}
+.judgesContent {
+  color: white;
+  font-size: 25px;
+  margin-top: 25%;
+}
+.judgeFrame {
+  background: #27343C;
+  background: url("../assets/images/woodframe.png")
+    no-repeat;
+    padding: 10px 5px 5px 10px ;
+}
+.judgeTitle {
+  color: white;
+  font-size: 35px;
+  text-shadow: 1px 1px #27343c;
+  margin-bottom: 15px;
+}
+.judgePicture {
+  margin-bottom: 15px;
+}
+.judgeDescription {
+  color: white;
+  font-size: 25px;
+  text-shadow: 2px 2px #27343c;
+  margin-bottom: 25px;
+}
+
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   .dragonHeadLeft {

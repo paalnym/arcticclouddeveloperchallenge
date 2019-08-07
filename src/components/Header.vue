@@ -20,11 +20,9 @@
               <nav class="tabs">
                 <div class="selector"></div>
                 <router-link class="spacing" to="/home">Home</router-link>
-                <router-link class="spacing" to="/about">Teams</router-link>
-                <router-link class="spacing" to="/categories">Agenda</router-link>
-                <router-link class="spacing" to="/agenda">Venue</router-link>
-                <router-link class="spacing" to="/scoring">Prices</router-link>
-                <router-link class="spacing" to="/lastYear">About</router-link>
+                <router-link class="spacing" to="/about">About</router-link>
+                <router-link class="spacing" to="/Agenda">Agenda</router-link>
+                <router-link class="spacing" to="/lastYear">Last Year</router-link>
                 <router-link class="spacing" to="/contact">Contact us</router-link>
               </nav>
             </Slide>
@@ -33,11 +31,9 @@
             <nav class="tabs">
               <div class="selector"></div>
               <router-link class="spacing" to="/home">Home</router-link>
-              <router-link class="spacing" to="/about">Teams</router-link>
-              <router-link class="spacing" to="/categories">Agenda</router-link>
-              <router-link class="spacing" to="/agenda">Venue</router-link>
-              <router-link class="spacing" to="/scoring">Prices</router-link>
-              <router-link class="spacing" to="/lastYear">About</router-link>
+              <router-link class="spacing" to="/about">About</router-link>
+              <router-link class="spacing" to="/Agenda">Agenda</router-link>
+              <router-link class="spacing" to="/lastYear">Last Year</router-link>
               <router-link class="spacing" to="/contact">Contact us</router-link>
             </nav>
           </div>
