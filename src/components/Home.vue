@@ -90,26 +90,26 @@
               <div class="judgeTitle">Sigvat Gellirsson</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription">
-                Judge description comming.
+                Judge description coming.
               </div>
 
              <div class="judgeTitle">Arnstein Hallfridsson</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription">
-                Judge description comming.
+                Judge description coming.
               </div>
             </div>
             <div class="col-md-6">
               <div class="judgeTitle">Ingimund Olvirsson</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription">
-                Judge description comming.
+                Judge description coming.
               </div>
 
              <div class="judgeTitle">Toki Ketilbiornsson</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription">
-                Judge description comming.
+                Judge description coming.
               </div>
             </div>
         </div>

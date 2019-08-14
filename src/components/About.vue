@@ -89,7 +89,7 @@
           <p>Keeping up the tradition, the Arctic Cloud Developer Challenge is being held in Oslo at Voksenåsen hotel</p>
           <p>
             <b>
-              <a href="https://forms.office.com/pages/responsepage.aspx?id=-bm9m7wujuoylzc2t8hwpj0x9zvnyi1muyitgulpx8fuofbjreplofy1qzzmnzjyq1fuwu5zulhdtyqlqcn0pwcu&fbclid=iwar1gtpqrspvipholha4z-grakl4kzjelpltizo-ahsndkrahexebr6b7wpm">Register your teams!</a>
+              <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=fa-Hi0eGx02N9F9pogEbtVqrSmJ1crRAtUiuR7rVkvNUMjZPUk44SDFJWllIMklLR0g3QUhJVlpNRC4u">Register your teams!</a>
             </b>
           </p>
           <h4>Pricing</h4>

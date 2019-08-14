@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "acdc2020-2e306",
     "public": "dist",
     "ignore": [
       "firebase.json",
