@@ -34,31 +34,34 @@
         <div class="categoriesContent">
           <div class="row">
             <div class="col-md-6">
-              <div class="categoriesCatTitle">Willy's shed</div>
+              <div class="categoriesCatTitle">Odins Power User Love</div>
               <p>
                 Power users love tools and flexibility, so why not show them some by using tools available to the average
                 office and line worker out there.
               </p>
 
-              <div class="categoriesCatTitle">Willy's shed</div>
-              <p>Cash is king, and nothing says cash like great business value.</p>
+              <div class="categoriesCatTitle">Freyas Design Favor</div>
+              <p>
+                Everything is so pretty, I can't take my eyes away! Applications are not all about functionality, they have to look pretty as well - why else have design manuals?
+              </p>
 
-              <div class="categoriesCatTitle">Willy's shed</div>
-              <p>Cash is king, and nothing says cash like great business value.</p>
+              <div class="categoriesCatTitle">Thors Connected Hammer</div>
+              <p>
+                All the tiny things, connected and online. Bring your IoT to the science fair!
+              </p>
             </div>
             <div class="col-md-6">
-                <div class="categoriesCatTitle">Willy's shed</div>
-                <p>
-                  Power users love tools and flexibility, so why not show them some by using tools available to the average
-                  office and line worker out there.
-                </p>
-                <div class="categoriesCatTitle">Willy's shed</div>
-                <p>Cash is king, and nothing says cash like great business value.</p>
+              <div class="categoriesCatTitle">Viking Raiders Loot</div>
+              <p>
+                Cash is king, and nothing says cash like great business value.
+              </p>
+              <div class="categoriesCatTitle">Loki's curse</div>
+              <p>Use non-Microsoft tech in meaningful ways, or just out of spite</p>
 
-                <div class="categoriesCatTitle">Willy's shed</div>
-                <p>Cash is king, and nothing says cash like great business value.</p>
-              </div>
+              <div class="categoriesCatTitle">For Valhalla !</div>
+              <p>Be a happy camper, spread the love, show your amazing team spirit!</p>
             </div>
+          </div>
         </div>
       </div>
     </div>
@@ -87,37 +90,50 @@
               <div class="judgeTitle">Sigvat Gellirsson</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription">
-                Power users love tools and flexibility, so why not show them some by using tools available to the average
-                office and line worker out there.
+                Judge description comming.
               </div>
 
              <div class="judgeTitle">Arnstein Hallfridsson</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription">
-                Power users love tools and flexibility, so why not show them some by using tools available to the average
-                office and line worker out there.
+                Judge description comming.
               </div>
             </div>
             <div class="col-md-6">
               <div class="judgeTitle">Ingimund Olvirsson</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription">
-                Power users love tools and flexibility, so why not show them some by using tools available to the average
-                office and line worker out there.
+                Judge description comming.
               </div>
 
              <div class="judgeTitle">Toki Ketilbiornsson</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription">
-                Power users love tools and flexibility, so why not show them some by using tools available to the average
-                office and line worker out there.
+                Judge description comming.
               </div>
             </div>
         </div>
       </div>
     </div>
+    </div>
+     <div class="row theCampSite">
+      <div class="container">
+        <div class="antlersStraightWhite"></div>
+        <div class="antlersDividerWhite"></div>
+        <div class="antlersDividerWhite"></div>
+        <div class="theCampsiteTitle">THE CAMPSITE</div>
+        <div class="antlersDividerWhite"></div>
+        <div class="antlersDividerWhite"></div>
+        <div class="antlersScewedWhite"></div>
+        <div class="theCampSiteContent">
+          <div class="theCampsiteSubTitle">VOKSENÅSEN HOTELL</div>
+          <p>Venue is the venerable Voksenåsen Hotel, located in the hills surrounding Oslo.</p> 
+          <p>We encourage all participants to stay at the hotel for the event.</p> 
+          <p>We will handle room bookings, and as you see from the conference fee most of what you'll need is covered so you can focus on waging the ultimate cloud battle.</p>  
+        </div>
+      </div>
+    </div>
   </div>
-</div>
 </template>
 
 <script>
@@ -219,7 +235,7 @@ export default {
   margin-top: -18px;
 }
 .antlersDivider {
-  border: 2px solid #27343c;
+  border: 1px solid #27343c;
   width: 100%;
   margin-bottom: 10px;
 }
@@ -275,7 +291,6 @@ export default {
   font-family: "Roboto Condensed", Georgia, Times, serif;
   text-shadow: 1px 1px #27343c;
   float: right;
-  padding-right: 15%;
 }
 .judges {
   background: #27343C;
@@ -296,7 +311,7 @@ export default {
 .judgesContent {
   color: white;
   font-size: 25px;
-  margin-top: 25%;
+  margin-top: 10%;
 }
 .judgeFrame {
   background: #27343C;
@@ -316,8 +331,51 @@ export default {
 .judgeDescription {
   color: white;
   font-size: 25px;
-  text-shadow: 2px 2px #27343c;
+  text-shadow: 1px 1px #27343c;
   margin-bottom: 25px;
+}
+.theCampSite {
+  background: white;
+  background: url("../assets/images/jake-hinds-392693-unsplash.png")
+    no-repeat center;
+  background-size: cover;
+  height: 40%;
+  padding-top: 40px;
+  padding-bottom: 40%;
+}
+.antlersStraightWhite {
+  height: 71px;
+  background: url("../assets/images/antlers_allwhite_trans.png") no-repeat center;
+  margin-bottom: -9px;
+}
+.antlersScewedWhite {
+  height: 69px;
+  background: url("../assets/images/antlers_allwhite_trans.png") no-repeat center;
+  transform: rotate(180deg);
+  margin-left: 35px;
+  margin-top: -18px;
+}
+.antlersDividerWhite {
+  border: 1px solid white;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.theCampsiteTitle {
+  color: white;
+  font-size: 2.5rem;
+}
+.theCampSiteContent {
+  margin-top: 80px;
+  color: white;
+  font-size: 25px;
+  text-align: left;
+  text-shadow: 1px 1px #27343c;
+}
+.theCampsiteSubTitle {
+  color: white;
+  font-size: 30px;
+  margin-bottom: 15px;
+  font-family: "Roboto Condensed", Georgia, Times, serif;
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -380,7 +438,7 @@ export default {
 }
 /* ----------- iPhone X ----------- */
 /* Portrait and Landscape */
-@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media only screen and (min-device-width: 180px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   .dragonHeadLeft {
     visibility: hidden;
   }
@@ -394,6 +452,9 @@ export default {
     height: 10px;
     width: 200px;
   }
+  .theAward {
+    padding-top: 70px;
+  }
   .quickSummary {
     padding-top: 0;
   }
@@ -404,6 +465,9 @@ export default {
     margin-top: 60px;
     font-size: 30px;
     font-size: 1.75rem;
+  }
+  .logo2right {
+    position: unset;
   }
 }
 </style>

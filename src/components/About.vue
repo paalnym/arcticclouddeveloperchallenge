@@ -1,10 +1,9 @@
 <template>
-  <div class="acdc-wrapper">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row about">
         <div class="col-md-4">
-          <h3 class="title">Arctic cloud developer challenge 2019</h3>
-          <p>#acdc2019 aims to stimulate collaborative learning, networking and stimulation of ideas for participants through
+          <h3 class="title">Arctic cloud developer challenge 2020</h3>
+          <p>#acdc2020 aims to stimulate collaborative learning, networking and stimulation of ideas for participants through
             <nobr>hands-on,</nobr>
             <nobr>time-limited</nobr> challenges. we are fiercely competitive, yet vastly helpful and extremely sharing (also across teams), realizing that collective learning is more important than personal gain!
           </p>
@@ -52,31 +51,31 @@
           <p>The jury this year consists of 5 people.</p>
           <p>The jury does not participate in teams, but are allowed to jump in on any team and aid/assist. It is up to the teams to "sell" their challenge to the jurors to get them involved. Jurors must allow fair distribution of their time across teams.</p>
           <p>The jury will award points and awards.</p>
-          <h4>The jury for 2019 consists of</h4>
+          <h4>The jury for 2020 consists of</h4>
           <p>
             <span>
-              <b>Seb Matthews</b> – Consultant, tech leader, investor, speaker, privacy, information management. Microsoft fan. Seb is an all around nice guy, being a returning judge, and knowledgeable about most things Microsoft. among his many ventures he is also employed as a technology futurist at Nasa.
+              <b>Unkown</b>
+            </span>
+          </p>
+          <p>
+           <span>
+              <b>Unkown</b>
+            </span>
+          </p>
+          <p>
+           <span>
+              <b>Unkown</b>
             </span>
           </p>
           <p>
             <span>
-              <b>Erwin Van Hunen</b> – Product manager at Rencore. Erwin is a Microsoft MVP in Office Apps and Services, he’s also a Microsoft certified master, and a core member of the Microsoft Sharepoint patterns and practices (pnp) team. Erwin is somewhat of a Powershell wizard, and participated once before in the event, where his team lost – now he’s back to judge them all!
+              <b>Unkown</b>
             </span>
           </p>
           <p>
             <span>
-              <b>Marius Agur Hagelund Lind</b> – Owner at Marius Agur consulting and a Microsoft MVP in business applications. this crmviking has both been a participant and judge before, so he knows what’s going on – most importantly, he can explain the points system.
+              <b>Unkown</b>
             </span>
-          </p>
-          <p>
-            <span>
-              <b>Laura Kokkarinen</b> – Senior developer at Sulava oy. Laura has recently been awarded microsoft MVP in Office Development and writes very insightful articles about Office 365. this is her first hackathon as a judge.
-            </span>
-          </p>
-          <p>
-            <span>
-              <b>Chris Huntingford</b> – dynamics 365
-            </span>Pre-sales solution architect at Hitachi solutions, ltd & Microsoft MVP in business applications.
           </p>
         
         </div>
@@ -85,7 +84,7 @@
           <p>The challenge is taken on by teams. The cloud is a collaborative platform and so should the development be. Teams are a minimum of two participants. Solo participants are grouped or assigned to teams prior to the event (we will consult you!).</p>
           <p>The challenge is taking place:</p>
           <p>
-            <b>Oslo, february 28th to march 2nd 2019</b>
+            <b>Oslo, February 06th-09th 2020</b>
           </p>
           <p>Keeping up the tradition, the Arctic Cloud Developer Challenge is being held in Oslo at Voksenåsen hotel</p>
           <p>
@@ -125,7 +124,6 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
@@ -139,4 +137,21 @@ export default {
 };
 </script>
 <style>
+.about {
+  padding: 20px;
+  text-align: left;
+   background: white;
+  background: url("../assets/images/isai-ramos-46821-unsplash.png") no-repeat
+    center;
+  background-size: cover;
+  height: 40%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about .title {
+  margin-top: 20px;
+}
+.about ul {
+  list-style-type: none;
+}
 </style>

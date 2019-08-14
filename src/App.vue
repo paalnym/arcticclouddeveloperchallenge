@@ -40,6 +40,7 @@ div {
   text-align: center;
   color: white;
   font-size: 18px;
+  overflow-x: hidden;
 }
 #app ul {
   padding: 0;

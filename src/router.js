@@ -5,6 +5,7 @@ import Contact from '@/components/Contact'
 import About from '@/components/About'
 import Agenda from '@/components/Agenda'
 import LastYear from '@/components/LastYear'
+import Register from '@/components/Register'
 Vue.use(Router)
 
 export default new Router({
@@ -34,6 +35,11 @@ export default new Router({
       path: '/LastYear',
       name: 'LastYear',
       component: LastYear
+    },
+    {
+      path: '/register',
+      name: 'register',
+      component: Register
     }
   ]
 })

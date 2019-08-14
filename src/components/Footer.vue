@@ -4,7 +4,7 @@
       <div class="row footer">
         <div class="container">
           <div class="col-md-12">
-            <p>&copy; 2019 Arctic Cloud Developer Challenge</p>
+            <p>&copy; 2019/2020 Arctic Cloud Developer Challenge</p>
           </div>
         </div>
       </div>

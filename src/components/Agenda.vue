@@ -4,12 +4,12 @@
       <div class="row agenda">
         <div class="container">
           <div class="col-md-12">
-            <h3 class="title">Agenda</h3>
+            <h3 class="title">Temporary Agenda, final agenda coming soon</h3>
           <div class="row devider">
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Thursday 28 February</h5>
+                    <h5 class="card-name">Thursday 06 February</h5>
                     <p class="card-text">
                        <ul>
                         <li>0800 Check-in and rigging</li>
@@ -29,7 +29,7 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Friday 01 March</h5>
+                    <h5 class="card-name">Friday 07 February</h5>
                     <p class="card-text">
                        <ul>
                         <li>0800 Breakfast</li>
@@ -49,10 +49,10 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Saturday 02 March</h5>
+                    <h5 class="card-name">Saturday 08 February</h5>
                     <p class="card-text">
                        <ul>
-                        <li>0800 Breakfast</li>
+                        <li>There are exiting things thats going to happen here ! Stay tuned :D</li>
                         <li>0900 Challenge session</li>
                         <li>1200 Lunch</li>
                         <li>1600 Final Jury Delivery</li>
@@ -70,7 +70,7 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Sunday 03 March</h5>
+                    <h5 class="card-name">Sunday 09 February</h5>
                     <p class="card-text">
                        <ul>
                         <li>0800 Breakfast</li>
@@ -100,4 +100,28 @@ export default {
 }
 </script>
 <style>
+.agenda {
+  padding: 20px;
+  text-align: left;
+  background: white;
+  background: url("../assets/images/isai-ramos-46821-unsplash.png") no-repeat
+    center;
+  background-size: cover;
+  height: 40%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.agenda ul {
+  list-style-type: none;
+}
+.agenda .title {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.agenda .card {
+  background: #27343C;
+  border: 0;
+  margin-bottom: 15px;
+}
 </style>
