@@ -21,6 +21,8 @@ export default {
 <style>
 @import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:Light");
 @import url("https://fonts.googleapis.com/css?family=Nobile");
+@import url("https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css");
+
 
 h1,
 h2,

@@ -19,11 +19,11 @@
             <Slide right>
               <nav class="tabs">
                 <div class="selector"></div>
-                <router-link class="spacing" to="/home">Home</router-link>
-                <router-link class="spacing" to="/about">About</router-link>
-                <router-link class="spacing" to="/Agenda">Agenda</router-link>
-                <router-link class="spacing" to="/register">Register</router-link>
-                <router-link class="spacing" to="/contact">Contact us</router-link>
+                <router-link class="spacing" to="/home"><i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i><span>Home</span></router-link>
+                <router-link class="spacing" to="/about"><i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i><span>About</span></router-link>
+                <router-link class="spacing" to="/Agenda"><i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i><span>Agenda</span></router-link>
+                <router-link class="spacing" to="/register"><i class="ms-Icon ms-Icon--AddFriend" aria-hidden="true"></i><span>Register</span></router-link>
+                <router-link class="spacing" to="/contact"><i class="ms-Icon ms-Icon--ContactCard" aria-hidden="true"></i><span>Contact us</span></router-link>
                 <!--<router-link class="spacing" to="/lastYear">Previous Hackatons</router-link>-->
               </nav>
             </Slide>
@@ -159,6 +159,19 @@ export default {
     background: linear-gradient(45deg, #05abe0 0%, #8200f4 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#8200f4',GradientType=1 );
   }
+
+/* Screen size no matter device type*/
+@media screen and (min-width: 375px) and (max-width: 812px){
+  .tabs a {
+    display: flex;
+  }
+
+  .tabs span{
+    color: rgb(230,230,230);
+    font-weight: 700;
+    margin-left: 10px;
+  }
+}
 
       /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
