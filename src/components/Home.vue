@@ -30,7 +30,7 @@
           <br />
           <br />And all the glory they can carry
         </div>
-        <div class="categoriesTitle">CATEGORIES</div>
+        <div class="categoriesTitle">CATEGORIES - (Subject to change)</div>
         <div class="categoriesContent">
           <div class="row">
             <div class="col-md-6">
@@ -69,7 +69,7 @@
       <div class="container-fluid">
         <div class="thePriceToPayContent">
             <div class="thePriceToPayTitle">THE PRICE TO PAY</div>
-              <p>Price: NOK 7000 (ex. VAT)</p> 
+              <p>Price: NOK 8500 (ex. VAT)</p> 
               <p>Includes:</p> 
               <p>Challenge Participants Pass Three nights in single bedroom at onsite hotel</p>  
               <p>Breakfast Friday, Saturday and Sunday </p>

@@ -44,7 +44,7 @@
         </div>
         <div class="col-md-4">
           <h4 class="title">The business challenge</h4>
-          <p>The business challenges that the teams choose to target are up to the teams. this year’s theme is the simpsons, so feel free to center your business case in anything springfield related. optimize the school system to get bart become a straight a student, make sure the nuclear plant turns everyone into office zombies – your imagination is the limit!</p>
+          <p>The business challenges that the teams choose to target are up to the teams. this year’s theme is Vikings, so feel free to center your business case in anything Midgard related, your imagination is the limit!</p>
           <h4>The stakes</h4>
           <p>Teams battle for the great trophy - the antlers - for best in show. The winning team is the team receiving the most amount of points according to our point system.</p>
           <h4>Jury and award process</h4>
@@ -93,7 +93,7 @@
             </b>
           </p>
           <h4>Pricing</h4>
-          <p>Nok 7.000,- (ex.vat)</p>
+          <p>Nok 8.500,- (ex.vat)</p>
           <p>The price includes:</p>
           <p>
             <span>Challenge participants pass</span>
