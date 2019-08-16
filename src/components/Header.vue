@@ -175,6 +175,10 @@ export default {
     font-weight: 700;
     margin-left: 10px;
   }
+
+  .bm-item-list > nav {
+    display: inline-block;
+  }
 }
 
       /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
