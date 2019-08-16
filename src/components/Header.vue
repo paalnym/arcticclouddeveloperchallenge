@@ -76,6 +76,10 @@ export default {
     margin-left: 0!important;
   } 
 
+  .bm-item-list > nav {
+    display: inline-block;
+  }
+
   .bm-burger-bars {
     background-color: white !important;
   }
@@ -162,9 +166,9 @@ export default {
 
 /* Screen size no matter device type*/
 @media screen and (min-width: 375px) and (max-width: 812px){
-  /*.tabs a {
+  .tabs a {
     display: flex;
-  }*/
+  }
 
   .tabs span{
     color: rgb(230,230,230);
