@@ -32,7 +32,7 @@
             <div class="about-icon-link about-v-default ">
               <router-link :to="{ name: 'business' }" class="io-about-reset">
                 <div class="about-icon-link__link-icon">
-                  <i class="ms-Icon ms-Icon--TextDocument" aria-hidden="true"></i>
+                  <i class="ms-Icon ms-Icon--Certificate" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
                   <h2 class="about-icon-link__heading">
@@ -49,7 +49,7 @@
             <div class="about-icon-link about-v-default ">
               <router-link :to="{ name: 'stakes' }" class="io-about-reset">
                 <div class="about-icon-link__link-icon">
-                  <i class="ms-Icon ms-Icon--TextDocument" aria-hidden="true"></i>
+                  <i class="ms-Icon ms-Icon--BarChartVertical" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
                   <h2 class="about-icon-link__heading">
@@ -66,7 +66,7 @@
             <div class="about-icon-link about-v-default ">
               <router-link :to="{ name: 'jury' }" class="io-about-reset">
                 <div class="about-icon-link__link-icon">
-                  <i class="ms-Icon ms-Icon--TextDocument" aria-hidden="true"></i>
+                  <i class="ms-Icon ms-Icon--Teamwork" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
                   <h2 class="about-icon-link__heading">
@@ -83,7 +83,7 @@
             <div class="about-icon-link about-v-default ">
               <router-link :to="{ name: 'participants' }" class="io-about-reset">
                 <div class="about-icon-link__link-icon">
-                  <i class="ms-Icon ms-Icon--TextDocument" aria-hidden="true"></i>
+                  <i class="ms-Icon ms-Icon--PlannerLogo" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
                   <h2 class="about-icon-link__heading">
@@ -100,7 +100,7 @@
             <div class="about-icon-link about-v-default ">
               <router-link :to="{ name: 'valueswins' }" class="io-about-reset">
                 <div class="about-icon-link__link-icon">
-                  <i class="ms-Icon ms-Icon--TextDocument" aria-hidden="true"></i>
+                  <i class="ms-Icon ms-Icon--Trophy2" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
                   <h2 class="about-icon-link__heading">
