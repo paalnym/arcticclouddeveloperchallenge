@@ -12,6 +12,7 @@
             <div class="divider"></div>
             <h1 class="title">VIKINGS ARE COMING</h1>
             <h3 class="date">February 6th-9th 2020</h3>
+            <h3>10 års jubileum</h3>
           </div>
         </div>
       </div>
@@ -68,48 +69,59 @@
     <div class="row thePriceToPay">
       <div class="container-fluid">
         <div class="thePriceToPayContent">
-            <div class="thePriceToPayTitle">THE PRICE TO PAY</div>
+            <div class="thePriceToPayTitle">THE PRICE TO PAY</div>            
               <p>Price: NOK 8500 (ex. VAT)</p> 
-              <p>Includes:</p> 
-              <p>Challenge Participants Pass Three nights in single bedroom at onsite hotel</p>  
-              <p>Breakfast Friday, Saturday and Sunday </p>
-              <p>Lunch, coffee and small treats for the full duration</p>  
-              <p>Geekfood Thursday</p>
-              <p>Three course dinner Friday</p> 
-              <p>Banquet dinner Saturday</p> 
-              <p>Subsidized CloudPints</p>
+              <p>Includes:</p>
+              <ul>
+                <li><p>Challenge Participants Pass </p></li>
+                <li><p>Three nights in single bedroom at onsite hotel</p></li>
+                <li><p>Breakfast Friday, Saturday and Sunday </p></li>
+                <li><p>Lunch, coffee and small treats for the full duration</p></li>
+                <li><p>Geekfood Thursday</p></li>
+                <li><p>Three course dinner Friday</p></li>
+                <li><p>Banquet dinner Saturday</p></li>
+                <li><p>Subsidized CloudPints</p></li>
+              </ul>
         </div>
       </div>
     </div>
     <div class="row judges">
       <div class="container">
         <div class="judgesContent">
-          <div class="judgesTitle">JUDGES</div>
+          <div class="judgesTitle darktext">JUDGES</div>
           <div class="row">
             <div class="col-md-6">
-              <div class="judgeTitle">Sigvat Gellirsson</div>
-              <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
-              <div class="judgeDescription">
-                Judge description coming.
+              <div class="judgeTitle darktext">Ahmad Najjar</div>
+              <img class="judgePicture" src="../assets/judges/ahmad.jpg" />
+              <div class="judgeDescription darktext">
+                Ahmad is an enthusiastic developer heart and soul and a senior consultant based in Oslo at Infoworker. He’s also an active co-organizer for events and hackathons.
               </div>
 
-             <div class="judgeTitle">Arnstein Hallfridsson</div>
+             <div class="judgeTitle darktext">Arnstein Hallfridsson</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
-              <div class="judgeDescription">
-                Judge description coming.
+              <div class="judgeDescription darktext">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
               </div>
             </div>
             <div class="col-md-6">
-              <div class="judgeTitle">Ingimund Olvirsson</div>
+              <div class="judgeTitle darktext">Ingimund Olvirsson</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
-              <div class="judgeDescription">
-                Judge description coming.
+              <div class="judgeDescription darktext">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
               </div>
 
-             <div class="judgeTitle">Toki Ketilbiornsson</div>
+              <div class="judgeTitle darktext">Toki Ketilbiornsson</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
-              <div class="judgeDescription">
-                Judge description coming.
+              <div class="judgeDescription darktext">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+              </div>
+            </div>
+
+            <div class="col-md-12">
+              <div class="judgeTitle darktext">Ingimund Olvirsson</div>
+              <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
+              <div class="judgeDescription darktext">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
               </div>
             </div>
         </div>
@@ -282,8 +294,12 @@ export default {
 }
 .thePriceToPayTitle {
   color: white;
-  font-size: 61px;
+  font-size: 61px;  
 }
+.thePriceToPayContent > ul > li {
+  text-align: left;
+}
+
 .thePriceToPayContent {
   color: white;
   font-size: 25px;
@@ -291,6 +307,7 @@ export default {
   font-family: "Roboto Condensed", Georgia, Times, serif;
   text-shadow: 1px 1px #27343c;
   float: right;
+  margin-right: 2em;
 }
 .judges {
   background: #27343C;
@@ -298,7 +315,7 @@ export default {
     no-repeat center;
   background-size: cover;
   padding-bottom: 40%;
-  opacity: 0.7;
+  opacity: 0.9;
   color: #27343C;
 }
 .judgesTitle {
@@ -312,12 +329,16 @@ export default {
   color: white;
   font-size: 25px;
   margin-top: 10%;
+  
 }
-.judgeFrame {
-  background: #27343C;
-  background: url("../assets/images/woodframe.png")
-    no-repeat;
-    padding: 10px 5px 5px 10px ;
+.darkenoverlay{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.judgeFrame {  
+  background: url("../assets/images/woodframe.png") no-repeat;
+  padding: 10px 5px 5px 10px ;
 }
 .judgeTitle {
   color: white;
@@ -327,11 +348,20 @@ export default {
 }
 .judgePicture {
   margin-bottom: 15px;
+  width: 308px;
+  height: 384px;
+}
+.darktext {
+    color: #fff;
+    text-shadow: 3px 3px #27343c;
+}
+.bottomspacing{
+  margin-bottom: 3em;
 }
 .judgeDescription {
   color: white;
   font-size: 25px;
-  text-shadow: 1px 1px #27343c;
+  text-shadow: 3px 3px #27343c;
   margin-bottom: 25px;
 }
 .theCampSite {

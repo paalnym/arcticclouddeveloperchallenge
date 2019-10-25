@@ -3,8 +3,8 @@
       <div class="container">
         <div class="row">
           <div class="column overview">
-            <h3 class="title">The stakes</h3>
-            <p>Teams battle for the great trophy - the antlers - for best in show. The winning team is the team receiving the most amount of points according to our point system.
+            <h3 class="title">10 års jubileum</h3>
+            <p>This year is very special since we are celebrating the 10th anniversary of ACDC. We celebrate by inviting all friends of ACDC to a join us at Voksenåsen for the “ACDC 10-year Anniversary Community Event” Friday February 7th. A day of great sessions and speakers from around the world, dinner and games, and a night of seeing old fields and drinking good beer. Anyone can join in, also those not participating in the challenge.
             </p>
           </div>
         </div>
