@@ -53,10 +53,10 @@
                 </div>
                 <div class="about-icon-link__link-text">
                   <h2 class="about-icon-link__heading">
-                    The stakes
+                    10 års jubileum!
                   </h2>
                   <p class="about-icon-link__description">
-                    Teams battle for the great trophy - the antlers - for best in show. The winning team is the team receiving the most amount of points according to our point system.
+                    This year is very special since we are celebrating the 10th anniversary of ACDC.
                   </p>
                 </div>
               </router-link>
