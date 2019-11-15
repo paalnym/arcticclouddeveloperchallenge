@@ -3,9 +3,9 @@
       <div class="container">
         <div class="row">
           <div class="column overview">
-            <h3 class="title">10 års jubileum</h3>
+            <h3 class="title">10 years anniversary</h3>
             <p>This year is very special since we are celebrating the 10th anniversary of ACDC. We celebrate by inviting all friends of ACDC to a join us at Voksenåsen for the “ACDC 10-year Anniversary Community Event” Friday February 7th. A day of great sessions and speakers from around the world, dinner and games, and a night of seeing old fields and drinking good beer. Anyone can join in, also those not participating in the challenge.
-            </p>
+            </p>                 
           </div>
         </div>
       </div>
@@ -15,6 +15,8 @@
 <script>
 export default {
   name: "stakes", //this is the name of the component
+  components: {
+  },
   methods: {
     track () {
       this.$ga.page('/')
@@ -29,6 +31,12 @@ export default {
 }
 .overview h3{
   font-size: 50px;
+}
+.center{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 .title {
     text-align: center;

@@ -12,6 +12,9 @@ import Participants from '@/components/Participants'
 import Stakes from '@/components/Stakes'
 import Values from '@/components/Values'
 import Jury from '@/components/Jury'
+import PreviousEvents from '@/components/PreviousEvents'
+import Judges from '@/components/Judges'
+
 
 Vue.use(Router)
 
@@ -64,9 +67,14 @@ export default new Router({
       component: Participants
     },
     {
-      path: '/stakes',
+      path: '/anniversary',
       name: 'stakes',
       component: Stakes
+    },
+    {
+      path: '/previous',
+      name: 'previous',
+      component: PreviousEvents
     },
     {
       path: '/values',
@@ -77,6 +85,11 @@ export default new Router({
       path: '/jury',
       name: 'jury',
       component: Jury
+    },
+    {
+      path: '/judges',
+      name: 'judges',
+      component: Judges
     }
   ]
 })

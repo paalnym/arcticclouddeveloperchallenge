@@ -12,7 +12,7 @@
             <div class="divider"></div>
             <h1 class="title">VIKINGS ARE COMING</h1>
             <h3 class="date">February 6th-9th 2020</h3>
-            <h3>10 års jubileum</h3>
+            <h3>10 years anniversary</h3>
           </div>
         </div>
       </div>
@@ -97,20 +97,20 @@
                 Ahmad is an enthusiastic developer heart and soul and a senior consultant based in Oslo at Infoworker. He’s also an active co-organizer for events and hackathons.
               </div>
 
-             <div class="judgeTitle darktext">Arnstein Hallfridsson</div>
-              <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
+             <div class="judgeTitle darktext">Marc Anderson</div>
+              <img class="judgePicture" src="../assets/judges/MarcAnderson.png" />
               <div class="judgeDescription darktext">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                Marc has over 35 years of experience in technology professional services and software development. Over a wide-ranging career in consulting as well as line manager positions.
               </div>
             </div>
             <div class="col-md-6">
-              <div class="judgeTitle darktext">Ingimund Olvirsson</div>
-              <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
+              <div class="judgeTitle darktext">Mikael Svenson</div>
+              <img class="judgePicture" src="../assets/judges/mikaelsvenson.png" />
               <div class="judgeDescription darktext">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                Mikael has with insight in many technologies and platforms as well as experience as project manager and customer communicator.
               </div>
 
-              <div class="judgeTitle darktext">Toki Ketilbiornsson</div>
+              <div class="judgeTitle darktext">To be announced...</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription darktext">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
@@ -118,7 +118,7 @@
             </div>
 
             <div class="col-md-12">
-              <div class="judgeTitle darktext">Ingimund Olvirsson</div>
+              <div class="judgeTitle darktext">To be announced...</div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription darktext">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
