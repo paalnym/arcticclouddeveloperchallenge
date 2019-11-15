@@ -15,7 +15,7 @@
                     <div class="card-seb"></div>
                     <h5 class="card-name">Seb Matthews</h5>
                     <p class="card-text">.
-                      Consultsssssaaassant. Tech Leader. Investor. Speaker. Privacy. Information Management. Microsoft Fan. Seb is an all around nice guy, being a returning judge, and knowledgeable about most things Microsoft. Among his many ventures he is also employed as a technology futurist at NASA.                  
+                      Consultant. Tech Leader. Investor. Speaker. Privacy. Information Management. Microsoft Fan. Seb is an all around nice guy, being a returning judge, and knowledgeable about most things Microsoft. Among his many ventures he is also employed as a technology futurist at NASA.                  
                     </p>
                   </div>
                 </div>
@@ -79,7 +79,7 @@
 
 <script>
 export default {
-  name: 'Contact', //this is the name of the component
+  name: 'judges', //this is the name of the component
   methods: {
     track () {
       this.$ga.page('/')
@@ -108,27 +108,27 @@ export default {
 }
 .juryAndSpeakers .card-seb {
   height: 300px;
-  background: url("./assets/judges/seb.png") no-repeat center;
+  background: url("../assets/judges/seb.png") no-repeat center;
   margin-bottom: 15px;
 }
 .juryAndSpeakers .card-erwin {
   height: 300px;
-  background: url("./assets/judges/erwin.png") no-repeat center;
+  background: url("../assets/judges/erwin.png") no-repeat center;
   margin-bottom: 15px;
 }
 .juryAndSpeakers .card-marius {
   height: 300px;
-  background: url("./assets/judges/marius.png") no-repeat center;
+  background: url("../assets/judges/marius.png") no-repeat center;
   margin-bottom: 15px;
 }
 .juryAndSpeakers .card-laura {
   height: 300px;
-  background: url("./assets/judges/laura.png") no-repeat center;
+  background: url("../assets/judges/laura.png") no-repeat center;
   margin-bottom: 15px;
 }
 .juryAndSpeakers .card-chris {
   height: 300px;
-  background: url("./assets/judges/chris.png") no-repeat center;
+  background: url("../assets/judges/chris.png") no-repeat center;
   margin-bottom: 15px;
 }
 .juryAndSpeakers .card-name {

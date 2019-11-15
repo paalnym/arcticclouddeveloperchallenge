@@ -47,16 +47,16 @@
           </div>
           <div class="column col-md-4">    
             <div class="about-icon-link about-v-default ">
-              <router-link :to="{ name: 'stakes' }" class="io-about-reset">
+              <router-link :to="{ name: 'previous' }" class="io-about-reset">
                 <div class="about-icon-link__link-icon">
                   <i class="ms-Icon ms-Icon--BarChartVertical" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
                   <h2 class="about-icon-link__heading">
-                    10 års jubileum!
+                    Previous events
                   </h2>
                   <p class="about-icon-link__description">
-                    This year is very special since we are celebrating the 10th anniversary of ACDC.
+                    ACDC have had very nice moments and stories, we are very happy to share them with you....
                   </p>
                 </div>
               </router-link>

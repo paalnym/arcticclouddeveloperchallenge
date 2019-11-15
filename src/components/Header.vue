@@ -8,7 +8,7 @@
               <img class="logo1" src="../assets/logo/acdc_alone_white_trans.png">
             </a>
           </div>
-          <div class="logo2right">
+          <div v-responsive="['hidden-all','lg','xl','md']" class="logo2right">
             <a href="#/home">
               <img class="logo2" src="../assets/logo/acdc_LONG_white_trans.png">
             </a>
@@ -19,8 +19,9 @@
             <Slide right>
               <nav class="tabs">
                 <div class="selector"></div>
-                <router-link class="spacing" to="/home"><i class="Home" aria-hidden="true"></i><span>Home</span></router-link>
+                <router-link class="spacing" to="/home"><i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i><span>Home</span></router-link>
                 <router-link class="spacing" to="/about"><i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i><span>About</span></router-link>
+                <router-link class="spacing" to="/anniversary"><i class="ms-Icon ms-Icon--PartyLeader" aria-hidden="true"></i><span>10th Anniversary</span></router-link>
                 <router-link class="spacing" to="/Agenda"><i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i><span>Agenda</span></router-link>
                 <router-link class="spacing" to="/register"><i class="ms-Icon ms-Icon--AddFriend" aria-hidden="true"></i><span>Register</span></router-link>
                 <router-link class="spacing" to="/contact"><i class="ms-Icon ms-Icon--ContactCard" aria-hidden="true"></i><span>Contact us</span></router-link>
@@ -33,6 +34,7 @@
               <div class="selector"></div>
                 <router-link class="spacing" to="/home">Home</router-link>
                 <router-link class="spacing" to="/about">About</router-link>
+                <router-link class="spacing" to="/anniversary">10th Anniversary</router-link>
                 <router-link class="spacing" to="/Agenda">Agenda</router-link>
                 <router-link class="spacing" to="/register">Register</router-link>
                 <router-link class="spacing" to="/contact">Contact us</router-link>
