@@ -9,15 +9,27 @@
             <p>
               We celebrate by inviting all friends of ACDC to a join us at Voksenåsen for the “ACDC 10-year Anniversary Community Event” Friday February 7th. A day of great sessions and speakers from around the world, dinner and games, and a night of seeing old fields and drinking good beer. Anyone can join in, so spread the word and bring a friend.
             </p> 
-            <h4 class="lightbrowntitle">Agenda</h4>
-            <ul>
-              <li><p><span class="yellowtitle">15:00</span> - Show up, sign in, get badge and pour coffee</p></li>
-              <li><p><span class="yellowtitle">15:15</span> - SharePint + Snack in the challenge room. Meet the ACDC 2020 teams</p></li>
-              <li><p><span class="yellowtitle">16:30</span> - Sessions and tracks with awesome speakers and exciting topics</p></li>
-              <li><p><span class="yellowtitle">19:00</span> - Please join us for dinner at Voksenåsen Restaurant (at your own expense)</p></li>
-              <li><p><span class="yellowtitle">21:00</span> - Fun and games</p></li>
-              <li><p><span class="yellowtitle">22:00</span> - Party!</p></li>
-            </ul>
+            <div class="row">
+              <div class="col-md-8 col-sm-12">
+                <h4 class="lightbrowntitle">Agenda</h4>
+                <ul>
+                  <li><p><span class="yellowtitle">15:00</span> - Show up, sign in, get badge and pour coffee</p></li>
+                  <li><p><span class="yellowtitle">15:15</span> - SharePint + Snack in the challenge room. Meet the ACDC 2020 teams</p></li>
+                  <li><p><span class="yellowtitle">16:30</span> - Sessions and tracks with awesome speakers and exciting topics</p></li>
+                  <li><p><span class="yellowtitle">19:00</span> - Please join us for dinner at Voksenåsen Restaurant (at your own expense)</p></li>
+                  <li><p><span class="yellowtitle">21:00</span> - Fun and games</p></li>
+                  <li><p><span class="yellowtitle">22:00</span> - Party!</p></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-sm-12"> 
+                <router-link to="/Register">
+                  <div class="registernow">
+                    <h3 class="lightbrowntitle">Register today</h3>
+                  </div>
+                </router-link>        
+              </div>
+            </div>
+            
             <h4 class="lightbrowntitle">The best part-it’s free-ish..</h4>
             <p>
               The event is free, except for a NOK 100,-no-show-fee. You’ll need to sign up before the event and get your badge when you arrive so that we know you are attending. We will serve you free foodand beerat the “SharePint and snacks” and need to know that we prepare enough for everyone.
@@ -31,7 +43,6 @@
               <div class="column">
                 <ul>
                   <li><a href="https://www.facebook.com/ArcticCloudDeveloperChallenge"><p>https://www.facebook.com/ArcticCloudDeveloperChallenge</p></a></li>
-                  <li><a href="https://arcticclouddeveloperchallenge.net/#/home"><p>https://arcticclouddeveloperchallenge.net/#/home</p></a></li>
                   <li><p>Twitter: @SPChallenge - #ACDC2020</p></li>
                 </ul>
               </div>
@@ -55,6 +66,14 @@ export default {
 };
 </script>
 <style>
+.registernow{
+  border-radius:4px;
+  background-color: #FBB90F;
+  padding: 10px;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 .anniversary li{
   list-style: none;
 }
