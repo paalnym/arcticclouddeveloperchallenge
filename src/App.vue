@@ -84,4 +84,18 @@ h6 {
 .lightbrowntitle {
   color:#fff0df;
 }
+@media only screen and (min-device-width: 800px) {
+  .overview p {
+    font-size: 25px;
+    padding: 0 20px;
+  }
+  .overview h3{
+    font-size: 50px;
+  }
+  .overview h4{
+    font-size: 40px;
+    padding: 0 20px;
+  }
+}
+
 </style>

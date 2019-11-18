@@ -2,7 +2,7 @@
     <div class="container-fluid anniversary">
       <div class="container">
         <div class="row">
-          <div class="column overview">
+          <div class="col-md-12 overview">
             <h3 class="lightbrowntitle title">10-year Anniversary Community Eve</h3>
             <p>We have the great pleasure of inviting you to the celebration of the 10-year anniversary for Arctic Cloud Developer Challenge, formerly known as Arctic SharePoint Challenge.
             </p>   
@@ -57,13 +57,6 @@ export default {
 <style>
 .anniversary li{
   list-style: none;
-}
-.overview p {
-  font-size: 25px;
-  padding: 0 20px;
-}
-.overview h3{
-  font-size: 50px;
 }
 .center{
     display: flex;

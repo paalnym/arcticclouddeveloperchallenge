@@ -137,13 +137,6 @@ export default {
 .twitter-tweet {
   margin-right: 20px;
 }
-.overview p {
-  font-size: 25px;
-  padding: 0 20px;
-}
-.overview h3{
-  font-size: 50px;
-}
 .center{
     display: flex;
     flex-wrap: wrap;
