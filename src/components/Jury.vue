@@ -107,18 +107,6 @@ export default {
 .judge-devider{
   margin-left: 15px !important;
 }
-
-.overview p {
-  font-size: 25px;
-  padding: 0 20px;
-}
-.overview h3{
-  font-size: 50px;
-}
-.overview h4{
-  font-size: 40px;
-  padding: 0 20px;
-}
 .title {
     text-align: center;
     margin-bottom: 30px;

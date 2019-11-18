@@ -129,13 +129,6 @@ export default {
 };
 </script>
 <style>
-.overview p {
-  font-size: 25px;
-  padding: 0 20px;
-}
-.overview h3{
-  font-size: 50px;
-}
 .aboutacdc {
   padding: 20px;
   text-align: left;
