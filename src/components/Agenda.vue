@@ -4,23 +4,23 @@
       <div class="row agenda">
         <div class="container">
           <div class="col-md-12">
-            <h3 class="title">Temporary Agenda, final agenda coming soon</h3>
+            <h1 class="lightbrowntitle title">Temporary Agenda, final agenda coming soon</h1>
           <div class="row devider">
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Thursday 06 February</h5>
+                    <h2 class="lightbrowntitle card-name">Thursday 06 February</h2>
                     <p class="card-text">
                        <ul>
-                        <li>0800 Check-in and rigging</li>
-                        <li>0900 Welcome and Keynote</li>
-                        <li>1000 Team presentations</li>
-                        <li>1030 Challenge kick-off</li>
-                        <li>1200 Lunch</li>
-                        <li>1215 Secret session</li>
-                        <li>1600 Jury Duty & Snacks</li>
-                        <li>1900 Points & Crowns</li>
-                        <li>1900 Dinner & Geekbeer</li>
+                        <li><p><span class="yellowtitle">0800</span> Check-in and rigging</p></li>
+                        <li><p><span class="yellowtitle">0900</span> Welcome and Keynote</p></li>
+                        <li><p><span class="yellowtitle">1000</span> Team presentations</p></li>
+                        <li><p><span class="yellowtitle">1030</span> Challenge kick-off</p></li>
+                        <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
+                        <li><p><span class="yellowtitle">1215</span> Secret session</p></li>
+                        <li><p><span class="yellowtitle">1600</span> Jury Duty & Snacks</p></li>
+                        <li><p><span class="yellowtitle">1900</span> Points & Crowns</p></li>
+                        <li><p><span class="yellowtitle">1900</span> Dinner & Geekbeer</p></li>
                       </ul>                  
                     </p>
                 </div>
@@ -29,18 +29,18 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Friday 07 February</h5>
+                    <h2 class="lightbrowntitle card-name">Friday 07 February</h2>
                     <p class="card-text">
                        <ul>
-                        <li>0800 Breakfast</li>
-                        <li>0900 Challenge session</li>
-                        <li>1200 Lunch</li>
-                        <li>1245 Secret session</li>
-                        <li>1430 Challenge session</li>
-                        <li>1600 Jury Duty & Snacks</li>
-                        <li>1900 Points & Crowns</li>
-                        <li>1930 Geekfood + Geekbeer</li>
-                        <li>2030 Kahoot</li>
+                        <li><p><span class="yellowtitle">0800</span> Breakfast</p></li>
+                        <li><p><span class="yellowtitle">0900</span> Challenge session</p></li>
+                        <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
+                        <li><p><span class="yellowtitle">1245</span> Secret session</p></li>
+                        <li><p><span class="yellowtitle">1430</span> Challenge session</p></li>
+                        <li><p><span class="yellowtitle">1600</span> Jury Duty & Snacks</p></li>
+                        <li><p><span class="yellowtitle">1900</span> Points & Crowns</p></li>
+                        <li><p><span class="yellowtitle">1930</span> Geekfood + Geekbeer</p></li>
+                        <li><p><span class="yellowtitle">2030</span> Kahoot</p></li>
                       </ul>                  
                     </p>
                 </div>
@@ -49,19 +49,19 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Saturday 08 February</h5>
+                    <h2 class="lightbrowntitle card-name">Saturday 08 February</h2>
                     <p class="card-text">
                        <ul>
                         <li>There are exiting things thats going to happen here ! Stay tuned :D</li>
-                        <li>0900 Challenge session</li>
-                        <li>1200 Lunch</li>
-                        <li>1600 Final Jury Delivery</li>
-                        <li>Clean out the hackaton room !</li>
-                        <li>1700 Free time + make awsome product presentations</li>
-                        <li>1900 Meetup @ bar</li>
-                        <li>1930 Challenge fine dinner</li>
-                        <li>2100 Demos & Awards</li>
-                        <li>2230 ACDC Party</li>
+                        <li><p><span class="yellowtitle">0900</span> Challenge session</p></li>
+                        <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
+                        <li><p><span class="yellowtitle">1600</span> Final Jury Delivery</p></li>
+                        <li><p>Clean out the hackaton room !</p></li>
+                        <li><p><span class="yellowtitle">1700</span> Free time + make awsome product presentations</p></li>
+                        <li><p><span class="yellowtitle">1900</span> Meetup @ bar</p></li>
+                        <li><p><span class="yellowtitle">1930</span> Challenge fine dinner</p></li>
+                        <li><p><span class="yellowtitle">2100</span> Demos & Awards</p></li>
+                        <li><p><span class="yellowtitle">2230</span> ACDC Party</p></li>
                       </ul>                  
                     </p>
                 </div>
@@ -70,11 +70,11 @@
             <div class="col-sm-6">
                 <div class="card">
                   <div class="card-body">
-                    <h5 class="card-name">Sunday 09 February</h5>
+                    <h2 class="lightbrowntitle card-name">Sunday 09 February</h2>
                     <p class="card-text">
                        <ul>
-                        <li>0800 Breakfast</li>
-                        <li>1100 Latest check-out</li>
+                        <li><p><span class="yellowtitle">0800</span> Breakfast</p></li>
+                        <li><p><span class="yellowtitle">1100</span> Latest check-out</p></li>
                       </ul>                  
                     </p>
                 </div>
@@ -103,8 +103,8 @@ export default {
 .agenda {
   padding: 20px;
   text-align: left;
-  background: white;
-  background: url("../assets/images/isai-ramos-46821-unsplash.png") no-repeat
+  background: black;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/images/adrian-159245-unsplash.jpg") no-repeat
     center;
   background-size: cover;
   height: 40%;
@@ -120,7 +120,7 @@ export default {
   margin-top: 20px;
 }
 .agenda .card {
-  background: #27343C;
+  background: transparent;
   border: 0;
   margin-bottom: 15px;
 }

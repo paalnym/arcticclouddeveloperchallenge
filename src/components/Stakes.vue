@@ -1,11 +1,41 @@
 <template>
-    <div class="container-fluid about">
+    <div class="container-fluid anniversary">
       <div class="container">
         <div class="row">
           <div class="column overview">
-            <h3 class="title">10 years anniversary</h3>
-            <p>This year is very special since we are celebrating the 10th anniversary of ACDC. We celebrate by inviting all friends of ACDC to a join us at Voksenåsen for the “ACDC 10-year Anniversary Community Event” Friday February 7th. A day of great sessions and speakers from around the world, dinner and games, and a night of seeing old fields and drinking good beer. Anyone can join in, also those not participating in the challenge.
-            </p>                 
+            <h3 class="lightbrowntitle title">10-year Anniversary Community Eve</h3>
+            <p>We have the great pleasure of inviting you to the celebration of the 10-year anniversary for Arctic Cloud Developer Challenge, formerly known as Arctic SharePoint Challenge.
+            </p>   
+            <p>
+              We celebrate by inviting all friends of ACDC to a join us at Voksenåsen for the “ACDC 10-year Anniversary Community Event” Friday February 7th. A day of great sessions and speakers from around the world, dinner and games, and a night of seeing old fields and drinking good beer. Anyone can join in, so spread the word and bring a friend.
+            </p> 
+            <h4 class="lightbrowntitle">Agenda</h4>
+            <ul>
+              <li><p><span class="yellowtitle">15:00</span> - Show up, sign in, get badge and pour coffee</p></li>
+              <li><p><span class="yellowtitle">15:15</span> - SharePint + Snack in the challenge room. Meet the ACDC 2020 teams</p></li>
+              <li><p><span class="yellowtitle">16:30</span> - Sessions and tracks with awesome speakers and exciting topics</p></li>
+              <li><p><span class="yellowtitle">19:00</span> - Please join us for dinner at Voksenåsen Restaurant (at your own expense)</p></li>
+              <li><p><span class="yellowtitle">21:00</span> - Fun and games</p></li>
+              <li><p><span class="yellowtitle">22:00</span> - Party!</p></li>
+            </ul>
+            <h4 class="lightbrowntitle">The best part-it’s free-ish..</h4>
+            <p>
+              The event is free, except for a NOK 100,-no-show-fee. You’ll need to sign up before the event and get your badge when you arrive so that we know you are attending. We will serve you free foodand beerat the “SharePint and snacks” and need to know that we prepare enough for everyone.
+            </p>    
+            <h4 class="lightbrowntitle">Dinnerand hotel not included</h4>
+            <p>
+              The dinner at 19:00 is not included –not free –but you are most welcome to join us at your own expense.Please let us know if you will join us for dinner when you get your badgeat sign in.You are most welcome to stay the night at the hotel at your own expense. You book the room yourself and get a small discount when registering under the ACDC name
+            </p>  
+            <h4 class="lightbrowntitle">More Info</h4>    
+            <div class="row">
+              <div class="column">
+                <ul>
+                  <li><a href="https://www.facebook.com/ArcticCloudDeveloperChallenge"><p>https://www.facebook.com/ArcticCloudDeveloperChallenge</p></a></li>
+                  <li><a href="https://arcticclouddeveloperchallenge.net/#/home"><p>https://arcticclouddeveloperchallenge.net/#/home</p></a></li>
+                  <li><p>Twitter: @SPChallenge - #ACDC2020</p></li>
+                </ul>
+              </div>
+            </div>        
           </div>
         </div>
       </div>
@@ -25,6 +55,9 @@ export default {
 };
 </script>
 <style>
+.anniversary li{
+  list-style: none;
+}
 .overview p {
   font-size: 25px;
   padding: 0 20px;
@@ -43,10 +76,10 @@ export default {
     margin-bottom: 30px;
     margin-top: 20px;
 }
-.about {
+.anniversary {
   padding: 20px;
   text-align: left;
-   background: white;
+  background-color: #27343C;
   background: url("../assets/images/isai-ramos-46821-unsplash.png") no-repeat
     center;
   background-size: cover;

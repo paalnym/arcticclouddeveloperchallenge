@@ -10,9 +10,9 @@
               <img class="logo1Rect" src="../assets/logo/acdc_white_trans.png" />
             </div>
             <div class="divider"></div>
-            <h1 class="title">VIKINGS ARE COMING</h1>
-            <h3 class="date">February 6th-9th 2020</h3>
-            <h3>10 years anniversary</h3>
+            <h1 class="lightbrowntitle title">VIKINGS ARE COMING</h1>
+            <p class="event-date">February 6th-9th 2020</p>
+            <p class="event-date"> 10 years anniversary</p>
           </div>
         </div>
       </div>
@@ -22,44 +22,44 @@
         <div class="antlersStraight"></div>
         <div class="antlersDivider"></div>
         <div class="antlersDivider"></div>
-        <div class="theAwardTitle">THE AWARD</div>
+        <div class="theAwardTitle"><h1>THE AWARD</h1></div>
         <div class="antlersDivider"></div>
         <div class="antlersDivider"></div>
         <div class="antlersScewed"></div>
         <div class="theAwardContent">
-          The winning team get to take home the ANTLERS to keep until next challenge
+          <h1>The winning team get to take home the ANTLERS to keep until next challenge</h1>
           <br />
-          <br />And all the glory they can carry
+          <br /><h1>And all the glory they can carry</h1>
         </div>
-        <div class="categoriesTitle">CATEGORIES - (Subject to change)</div>
+        <div class="categoriesTitle"><h1>CATEGORIES - (Subject to change)</h1></div>
         <div class="categoriesContent">
           <div class="row">
             <div class="col-md-6">
-              <div class="categoriesCatTitle">Odins Power User Love</div>
+              <div class="categoriesCatTitle"><h2>Odins Power User Love</h2></div>
               <p>
                 Power users love tools and flexibility, so why not show them some by using tools available to the average
                 office and line worker out there.
               </p>
 
-              <div class="categoriesCatTitle">Freyas Design Favor</div>
+              <div class="categoriesCatTitle"><h2>Freyas Design Favor</h2></div>
               <p>
                 Everything is so pretty, I can't take my eyes away! Applications are not all about functionality, they have to look pretty as well - why else have design manuals?
               </p>
 
-              <div class="categoriesCatTitle">Thors Connected Hammer</div>
+              <div class="categoriesCatTitle"><h2>Thors Connected Hammer</h2></div>
               <p>
                 All the tiny things, connected and online. Bring your IoT to the science fair!
               </p>
             </div>
             <div class="col-md-6">
-              <div class="categoriesCatTitle">Viking Raiders Loot</div>
+              <div class="categoriesCatTitle"><h2>Viking Raiders Loot</h2></div>
               <p>
                 Cash is king, and nothing says cash like great business value.
               </p>
-              <div class="categoriesCatTitle">Loki's curse</div>
+              <div class="categoriesCatTitle"><h2>Loki's curse</h2></div>
               <p>Use non-Microsoft tech in meaningful ways, or just out of spite</p>
 
-              <div class="categoriesCatTitle">For Valhalla !</div>
+              <div class="categoriesCatTitle"><h2>For Valhalla !</h2></div>
               <p>Be a happy camper, spread the love, show your amazing team spirit!</p>
             </div>
           </div>
@@ -69,7 +69,7 @@
     <div class="row thePriceToPay">
       <div class="container-fluid">
         <div class="thePriceToPayContent">
-            <div class="thePriceToPayTitle">THE PRICE TO PAY</div>            
+            <div class="thePriceToPayTitle"><h1>THE PRICE TO PAY</h1></div>            
               <p>Price: NOK 8500 (ex. VAT)</p> 
               <p>Includes:</p>
               <ul>
@@ -88,29 +88,29 @@
     <div class="row judges">
       <div class="container">
         <div class="judgesContent">
-          <div class="judgesTitle darktext">JUDGES</div>
+          <div class="judgesTitle darktext"><h1>JUDGES</h1></div>
           <div class="row">
             <div class="col-md-6">
-              <div class="judgeTitle darktext">Ahmad Najjar</div>
+              <div class="judgeTitle darktext"><h2>Ahmad Najjar</h2></div>
               <img class="judgePicture" src="../assets/judges/ahmad.jpg" />
               <div class="judgeDescription darktext">
                 Ahmad is an enthusiastic developer heart and soul and a senior consultant based in Oslo at Infoworker. He’s also an active co-organizer for events and hackathons.
               </div>
 
-             <div class="judgeTitle darktext">Marc Anderson</div>
+             <div class="judgeTitle darktext"><h2>Marc Anderson</h2></div>
               <img class="judgePicture" src="../assets/judges/MarcAnderson.png" />
               <div class="judgeDescription darktext">
                 Marc has over 35 years of experience in technology professional services and software development. Over a wide-ranging career in consulting as well as line manager positions.
               </div>
             </div>
             <div class="col-md-6">
-              <div class="judgeTitle darktext">Mikael Svenson</div>
+              <div class="judgeTitle darktext"><h2>Mikael Svenson</h2></div>
               <img class="judgePicture" src="../assets/judges/mikaelsvenson.png" />
               <div class="judgeDescription darktext">
                 Mikael has with insight in many technologies and platforms as well as experience as project manager and customer communicator.
               </div>
 
-              <div class="judgeTitle darktext">To be announced...</div>
+              <div class="judgeTitle darktext"><h2>To be announced...</h2></div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription darktext">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
@@ -118,7 +118,7 @@
             </div>
 
             <div class="col-md-12">
-              <div class="judgeTitle darktext">To be announced...</div>
+              <div class="judgeTitle darktext"><h2>To be announced...</h2></div>
               <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
               <div class="judgeDescription darktext">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
@@ -133,12 +133,12 @@
         <div class="antlersStraightWhite"></div>
         <div class="antlersDividerWhite"></div>
         <div class="antlersDividerWhite"></div>
-        <div class="theCampsiteTitle">THE CAMPSITE</div>
+        <div class="theCampsiteTitle"><h1>THE CAMPSITE</h1></div>
         <div class="antlersDividerWhite"></div>
         <div class="antlersDividerWhite"></div>
         <div class="antlersScewedWhite"></div>
         <div class="theCampSiteContent">
-          <div class="theCampsiteSubTitle">VOKSENÅSEN HOTELL</div>
+          <div class="theCampsiteSubTitle"><h1>VOKSENÅSEN HOTELL</h1></div>
           <p>Venue is the venerable Voksenåsen Hotel, located in the hills surrounding Oslo.</p> 
           <p>We encourage all participants to stay at the hotel for the event.</p> 
           <p>We will handle room bookings, and as you see from the conference fee most of what you'll need is covered so you can focus on waging the ultimate cloud battle.</p>  
@@ -177,6 +177,7 @@ export default {
   font-size: 30px;
   font-weight: 500;
   line-height: 1.2;
+  color:white;
 }
 .rectangle {
   border: solid 10px;
@@ -185,7 +186,6 @@ export default {
   padding-bottom: 90px;
 }
 .quickSummary h1 {
-  color: white;
   padding-bottom: 15px;
 }
 .quickSummary h3 {
@@ -261,6 +261,10 @@ export default {
   font-size: 50px;
   margin-bottom: 80px;
 }
+
+.theAwardContent h1{
+  color:#5B4F43;
+}
 .categoriesTitle {
   color: white;
   text-align: left;
@@ -319,7 +323,7 @@ export default {
   color: #27343C;
 }
 .judgesTitle {
-  color: white;
+  color: #FBB90F !important;;
   font-size: 70px;
   font-weight: bolder;
   text-shadow: 1px 1px #27343c;
@@ -341,7 +345,7 @@ export default {
   padding: 10px 5px 5px 10px ;
 }
 .judgeTitle {
-  color: white;
+  color: #FBB90F !important;
   font-size: 35px;
   text-shadow: 1px 1px #27343c;
   margin-bottom: 15px;

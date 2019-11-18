@@ -4,7 +4,7 @@ import Home from '@/components/Home'
 import Contact from '@/components/Contact'
 import About from '@/components/About'
 import Agenda from '@/components/Agenda'
-import LastYear from '@/components/LastYear'
+import Galleri from '@/components/Galleri'
 import Register from '@/components/Register'
 import Overview from '@/components/Overview'
 import BusinessChallenge from '@/components/BusinessChallenge'
@@ -47,9 +47,9 @@ export default new Router({
       component: Contact
     },
     {
-      path: '/LastYear',
-      name: 'LastYear',
-      component: LastYear
+      path: '/Galleri',
+      name: 'galleri',
+      component: Galleri
     },
     {
       path: '/register',

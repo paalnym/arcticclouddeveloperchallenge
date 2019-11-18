@@ -1,9 +1,9 @@
 <template>
-    <div class="container-fluid about">
+    <div class="container-fluid aboutacdc">
       <div class="container">
         <div class="row">
           <div class="col-md-12 separator overview">
-            <h3 class="title">Arctic cloud developer challenge 2020</h3>
+            <h3 class="title lightbrowntitle">Arctic cloud developer challenge 2020</h3>
             <p>#acdc2020 aims to stimulate collaborative learning, networking and stimulation of ideas for participants through
               <nobr>hands-on,</nobr>
               <nobr>time-limited</nobr> challenges. we are fiercely competitive, yet vastly helpful and extremely sharing (also across teams), realizing that collective learning is more important than personal gain!
@@ -18,7 +18,7 @@
                   <i class="ms-Icon ms-Icon--TextDocument" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading">
+                  <h2 class="about-icon-link__heading yellowtitle">
                     About ACDC
                   </h2>
                   <p class="about-icon-link__description">
@@ -35,7 +35,7 @@
                   <i class="ms-Icon ms-Icon--Certificate" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading">
+                  <h2 class="about-icon-link__heading yellowtitle">
                     The business challenge
                   </h2>
                   <p class="about-icon-link__description">
@@ -48,11 +48,11 @@
           <div class="column col-md-4">    
             <div class="about-icon-link about-v-default ">
               <router-link :to="{ name: 'previous' }" class="io-about-reset">
-                <div class="about-icon-link__link-icon">
+                <div class="about-icon-link__link-icon ">
                   <i class="ms-Icon ms-Icon--BarChartVertical" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading">
+                  <h2 class="about-icon-link__heading yellowtitle">
                     Previous events
                   </h2>
                   <p class="about-icon-link__description">
@@ -69,7 +69,7 @@
                   <i class="ms-Icon ms-Icon--Teamwork" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading">
+                  <h2 class="about-icon-link__heading yellowtitle">
                     Jury and award process
                   </h2>
                   <p class="about-icon-link__description">
@@ -86,7 +86,7 @@
                   <i class="ms-Icon ms-Icon--PlannerLogo" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading">
+                  <h2 class="about-icon-link__heading yellowtitle">
                     The participants
                   </h2>
                   <p class="about-icon-link__description">
@@ -103,7 +103,7 @@
                   <i class="ms-Icon ms-Icon--Trophy2" aria-hidden="true"></i>
                 </div>
                 <div class="about-icon-link__link-text">
-                  <h2 class="about-icon-link__heading">
+                  <h2 class="about-icon-link__heading yellowtitle">
                     Values and wins
                   </h2>
                   <p class="about-icon-link__description">
@@ -136,11 +136,11 @@ export default {
 .overview h3{
   font-size: 50px;
 }
-.about {
+.aboutacdc {
   padding: 20px;
   text-align: left;
    background: white;
-  background: url("../assets/images/matthew-kerslake-1641860-unsplash.png") no-repeat
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/images/toa-heftiba-362196-unsplash.jpg") no-repeat
     center;
   background-size: cover;
   height: 40%;
@@ -156,8 +156,9 @@ export default {
 .title {
     text-align: center;
     margin-bottom: 30px;
-    margin-top: 20px;
+    margin-top: 20px;    
 }
+
 .separator{
   margin-bottom: 100px;
 }

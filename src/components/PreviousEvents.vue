@@ -14,16 +14,7 @@
               <Tweet id="819226186123505664" :options="{ theme: 'dark' }"/>    
               <Tweet id="963135881409425415" :options="{ theme: 'dark' }"/>
               <Tweet id="1102146784934141952" :options="{ cards: 'hidden', theme: 'dark' }"/>                        
-            </div> 
-            <h3>Gallery</h3>
-            <h4>ACDC 2018</h4>
-            <div class="row">
-              <lightbox :images="ACDC2018"></lightbox>
-            </div>
-            <h4>ASPC 2017</h4>
-            <div class="row">
-              <lightbox :images="ACDC2017"></lightbox>
-            </div>       
+            </div>             
           </div>
         </div>
       </div>
@@ -32,9 +23,6 @@
 
 <script>
 import { Tweet } from 'vue-tweet-embed'
-import lightbox from "vlightbox";
-import Vue from "vue";
-Vue.use(lightbox);
 
 export default {
   name: "previous", //this is the name of the component
