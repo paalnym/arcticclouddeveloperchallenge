@@ -31,36 +31,40 @@
           <br />
           <br /><h1>And all the glory they can carry</h1>
         </div>
-        <div class="categoriesTitle"><h1>CATEGORIES - (Subject to change)</h1></div>
+        <div class="categoriesTitle"><h1>CATEGORIES</h1></div>
         <div class="categoriesContent">
           <div class="row">
             <div class="col-md-6">
               <div class="categoriesCatTitle"><h2>Odins Power User Love</h2></div>
               <p>
                 Power users love tools and flexibility, so why not show them some by using tools available to the average
-                office and line worker out there.
+                office and line worker out there. More power less code!
               </p>
+              <p>Power Automate, Power Apps, Power BI, Power Virtual Agent</p>
 
               <div class="categoriesCatTitle"><h2>Freyas Design Favor</h2></div>
               <p>
                 Everything is so pretty, I can't take my eyes away! Applications are not all about functionality, they have to look pretty as well - why else have design manuals?
               </p>
-
+              <p>Glossy pixels, User interactive, Responsivenes </p>
               <div class="categoriesCatTitle"><h2>Thors Connected Hammer</h2></div>
               <p>
                 All the tiny things, connected and online. Bring your IoT to the science fair!
               </p>
+              <p>Azure, IoT, DevOps</p>
             </div>
             <div class="col-md-6">
-              <div class="categoriesCatTitle"><h2>Viking Raiders Loot</h2></div>
+              <div class="categoriesCatTitle"><h2>Viking Raider's Loot</h2></div>
               <p>
                 Cash is king, and nothing says cash like great business value.
               </p>
-              <div class="categoriesCatTitle"><h2>Loki's curse</h2></div>
-              <p>Use non-Microsoft tech in meaningful ways, or just out of spite</p>
-
-              <div class="categoriesCatTitle"><h2>For Valhalla !</h2></div>
+               <p>Usable solutions, Feasable Ideas, Real world scenarios</p>
+              <div class="categoriesCatTitle"><h2>Bifrost's gate</h2></div>
+              <p>Secure your solutions, dont let Loki get past your gates!</p>
+              <p>Keyvaults, GDPR, Secured Services</p>
+              <div class="categoriesCatTitle"><h2>For Valhalla!</h2></div>
               <p>Be a happy camper, spread the love, show your amazing team spirit!</p>
+              <p>Help others in need, decorations, possitive vibes</p>
             </div>
           </div>
         </div>

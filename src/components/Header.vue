@@ -22,7 +22,7 @@
                 <router-link class="spacing" to="/home"><i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i><span>Home</span></router-link>
                 <router-link class="spacing" to="/about"><i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i><span>About</span></router-link>
                 <router-link class="spacing" to="/anniversary"><i class="ms-Icon ms-Icon--PartyLeader" aria-hidden="true"></i><span>10th Anniversary</span></router-link>
-                <router-link class="spacing" to="/galleri"><i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i><span>Galleri</span></router-link>
+                <router-link class="spacing" to="/galleri"><i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i><span>Gallery</span></router-link>
                 <router-link class="spacing" to="/Agenda"><i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i><span>Agenda</span></router-link>
                 <router-link class="spacing" to="/register"><i class="ms-Icon ms-Icon--AddFriend" aria-hidden="true"></i><span>Register</span></router-link>
                 <router-link class="spacing" to="/contact"><i class="ms-Icon ms-Icon--ContactCard" aria-hidden="true"></i><span>Contact us</span></router-link>
