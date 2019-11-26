@@ -24,6 +24,7 @@
                 <router-link class="spacing" to="/anniversary"><i class="ms-Icon ms-Icon--PartyLeader" aria-hidden="true"></i><span>10th Anniversary</span></router-link>
                 <router-link class="spacing" to="/galleri"><i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i><span>Gallery</span></router-link>
                 <router-link class="spacing" to="/Agenda"><i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i><span>Agenda</span></router-link>
+                <router-link class="spacing" to="/Agenda"><i class="ms-Icon ms-Icon--Education" aria-hidden="true"></i><span>Code of conduct</span></router-link>
                 <router-link class="spacing" to="/register"><i class="ms-Icon ms-Icon--AddFriend" aria-hidden="true"></i><span>Register</span></router-link>
                 <router-link class="spacing" to="/contact"><i class="ms-Icon ms-Icon--ContactCard" aria-hidden="true"></i><span>Contact us</span></router-link>
                 <!--<router-link class="spacing" to="/lastYear">Previous Hackatons</router-link>-->
@@ -38,6 +39,7 @@
                 <router-link class="spacing" to="/anniversary">10th Anniversary</router-link>
                 <router-link class="spacing" to="/galleri">Galleri</router-link>
                 <router-link class="spacing" to="/Agenda">Agenda</router-link>
+                <router-link class="spacing" to="/Values">Code of conduct</router-link>
                 <router-link class="spacing" to="/register">Register</router-link>
                 <router-link class="spacing" to="/contact">Contact us</router-link>
                 <!--<router-link class="spacing" to="/lastYear">Previous Hackatons</router-link>-->
