@@ -4,7 +4,7 @@
       <div class="row agenda">
         <div class="container">
           <div class="col-md-12">
-            <h1 class="lightbrowntitle title">Temporary Agenda, final agenda coming soon</h1>
+            <h1 class="lightbrowntitle title">Agenda</h1>
           <div class="row devider">
             <div class="col-sm-6">
                 <div class="card">
@@ -17,10 +17,9 @@
                         <li><p><span class="yellowtitle">1000</span> Team presentations</p></li>
                         <li><p><span class="yellowtitle">1030</span> Challenge kick-off</p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
-                        <li><p><span class="yellowtitle">1215</span> Secret session</p></li>
-                        <li><p><span class="yellowtitle">1600</span> Jury Duty & Snacks</p></li>
-                        <li><p><span class="yellowtitle">1900</span> Points & Crowns</p></li>
-                        <li><p><span class="yellowtitle">1900</span> Dinner & Geekbeer</p></li>
+                        <li><p><span class="yellowtitle">1600</span> Jury Duty &#x26; Snacks</p></li>
+                        <li><p><span class="yellowtitle">1800</span> Points, Helmets &#x26; Standup </p></li>
+                        <li><p><span class="yellowtitle">1900</span> Dinner &#x26; Mjød</p></li>
                       </ul>                  
                     </p>
                 </div>
@@ -33,14 +32,16 @@
                     <p class="card-text">
                        <ul>
                         <li><p><span class="yellowtitle">0800</span> Breakfast</p></li>
-                        <li><p><span class="yellowtitle">0900</span> Challenge session</p></li>
+                        <li><p><span class="yellowtitle">0900</span> Jury Duty &#x26; Challenge session</p></li>
+                        <li><p><span class="yellowtitle">1130</span> Points &#x26; Helmets</p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
-                        <li><p><span class="yellowtitle">1245</span> Secret session</p></li>
-                        <li><p><span class="yellowtitle">1430</span> Challenge session</p></li>
-                        <li><p><span class="yellowtitle">1600</span> Jury Duty & Snacks</p></li>
-                        <li><p><span class="yellowtitle">1900</span> Points & Crowns</p></li>
-                        <li><p><span class="yellowtitle">1930</span> Geekfood + Geekbeer</p></li>
-                        <li><p><span class="yellowtitle">2030</span> Kahoot</p></li>
+                        <li><p><span class="yellowtitle">1300</span> Challenge session</p></li>
+                        <li><p><span class="yellowtitle">1500</span> SharePint &#x26; Snack </p></li>
+                        <li><p><span class="yellowtitle">1600</span> Community Event</p></li>
+                        <li><p><span class="yellowtitle">1815</span> Panel Discussion</p></li>
+                        <li><p><span class="yellowtitle">1900</span> Dinner &#x26; Mjød</p></li>
+                        <li><p><span class="yellowtitle">2100</span> Fun and games</p></li>
+                        <li><p><span class="yellowtitle">2200</span> Party</p></li>
                       </ul>                  
                     </p>
                 </div>
@@ -52,15 +53,15 @@
                     <h2 class="lightbrowntitle card-name">Saturday 08 February</h2>
                     <p class="card-text">
                        <ul>
-                        <li>There are exiting things thats going to happen here ! Stay tuned :D</li>
-                        <li><p><span class="yellowtitle">0900</span> Challenge session</p></li>
+                        <li><p><span class="yellowtitle">0800</span> Breakfast</p></li>
+                        <li><p><span class="yellowtitle">0900</span> Jury Duty &#x26; Challenge session</p></li>
+                        <li><p><span class="yellowtitle">1130</span> Points &#x26; Helmets </p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
-                        <li><p><span class="yellowtitle">1600</span> Final Jury Delivery</p></li>
-                        <li><p>Clean out the hackaton room !</p></li>
-                        <li><p><span class="yellowtitle">1700</span> Free time + make awsome product presentations</p></li>
-                        <li><p><span class="yellowtitle">1900</span> Meetup @ bar</p></li>
-                        <li><p><span class="yellowtitle">1930</span> Challenge fine dinner</p></li>
-                        <li><p><span class="yellowtitle">2100</span> Demos & Awards</p></li>
+                        <li><p><span class="yellowtitle">1600</span> Final delivery (included documentation to the jury)</p></li>
+                        <li><p>Clean out the hackaton room !</p></li>                        
+                        <li><p><span class="yellowtitle">1700</span> Free time</p></li>
+                        <li><p><span class="yellowtitle">1830</span> Meetup @ bar</p></li>
+                        <li><p><span class="yellowtitle">1900</span> Challenge fine dinner & Awards</p></li>
                         <li><p><span class="yellowtitle">2230</span> ACDC Party</p></li>
                       </ul>                  
                     </p>
