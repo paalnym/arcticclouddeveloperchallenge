@@ -1,15 +1,16 @@
 <template>
     <div class="container-fluid">
       <div class="row contact">
-        <div class="col-md-12">
-          <h3 class="yellowtitle title">Contact us!</h3>
-            <p>
+        <div class="col-md-12 overview">
+          <h3 class="lightbrowntitle">Contact us!</h3>
+               <p>
               Follow Dexter the Lynx on Twitter
               <a href="https://twitter.com/intent/user?screen_name=SPChallenge"><span>@SPChallenge</span></a>
-            </P>
-            <p>Check out our facebook page for more information or to ask us any questions you may have</p>
-               <p><a href="https://www.facebook.com/ArcticCloudDeveloperChallenge/"><span>https://www.facebook.com/ArcticCloudDeveloperChallenge/</span></a>
-            </p>
+           </p>
+                 <p>
+              Follow Dexter the Lynx on Facebook
+               <a href="https://www.facebook.com/ArcticCloudDeveloperChallenge/"><span>https://www.facebook.com/ArcticCloudDeveloperChallenge/</span></a>
+                 </p>
           </div>
         </div>
       </div>
@@ -29,8 +30,8 @@ export default {
 .contact {
   padding: 20px;
    background: white;
-  background: url("../assets/images/isai-ramos-46821-unsplash.png") no-repeat
-    center;
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/images/isai-ramos-46821-unsplash_comp.jpg") no-repeat
+    center; 
   background-size: cover;
   height: 40%;
   padding-top: 40px;
@@ -40,5 +41,11 @@ export default {
 .contact h3 {
   margin-top: 20px;
   margin-bottom: 30px;
+}
+
+.contact .lightbrowntitle {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
 }
 </style>

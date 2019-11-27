@@ -125,4 +125,9 @@ export default {
   border: 0;
   margin-bottom: 15px;
 }
+.agenda .lightbrowntitle .title {
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
 </style>

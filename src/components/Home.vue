@@ -165,7 +165,7 @@ export default {
 <style>
 .quickSummary {
   background: white;
-  background: url("../assets/images/isai-ramos-46821-unsplash.png") no-repeat
+  background: url("../assets/images/isai-ramos-46821-unsplash_comp.jpg") no-repeat
     center;
   background-size: cover;
   height: 40%;
@@ -319,7 +319,7 @@ export default {
 }
 .judges {
   background: #27343C;
-  background: url("../assets/images/lisa-obenauf-359856-unsplash.png")
+  background: url("../assets/images/ella-peebles-kUkqoqwY61s-unsplash.jpg")
     no-repeat center;
   background-size: cover;
   padding-bottom: 40%;

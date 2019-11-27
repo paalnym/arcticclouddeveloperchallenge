@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
           <div class="column overview">
-            <h3 class="title">Previous Events</h3>
+            <h3 class="lightbrowntitle title">Previous Events</h3>
             <p>ACDC have had very nice moments and stories, we are very happy to share them with you...</p>
             <h4>Comments from previous judges:</h4>
             <div class="center">
@@ -148,17 +148,19 @@ export default {
     margin-bottom: 30px;
     margin-top: 20px;
 }
+
 .about {
   padding: 20px;
   text-align: left;
    background: white;
-  background: url("../assets/images/isai-ramos-46821-unsplash.png") no-repeat
-    center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/images/isai-ramos-46821-unsplash_comp.jpg") no-repeat
+    center; 
   background-size: cover;
   height: 40%;
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 .about .title {
   margin-top: 20px;
 }

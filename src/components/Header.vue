@@ -2,7 +2,7 @@
   <div>
     <div class="container-fluid">
       <div class="row header">
-        <div class="col-5">
+        <div class="col-3">
           <div class="logo1left">
             <a href="#/home">
               <img class="logo1" src="../assets/logo/acdc_alone_white_trans.png">
@@ -14,18 +14,19 @@
             </a>
           </div>
         </div>
-        <div class="col-7">
+        <div class="col-8">
           <div v-responsive="['hidden-all','xs','sm']">
             <Slide right>
               <nav class="tabs">
                 <div class="selector"></div>
                 <router-link class="spacing" to="/home"><i class="ms-Icon ms-Icon--Home" aria-hidden="true"></i><span>Home</span></router-link>
                 <router-link class="spacing" to="/about"><i class="ms-Icon ms-Icon--Group" aria-hidden="true"></i><span>About</span></router-link>
-                <router-link class="spacing" to="/anniversary"><i class="ms-Icon ms-Icon--PartyLeader" aria-hidden="true"></i><span>10th Anniversary</span></router-link>
-                <router-link class="spacing" to="/galleri"><i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i><span>Gallery</span></router-link>
+                <router-link class="spacing" to="/RulesAndPoints"><i class="ms-Icon ms-Icon--Bullseye" aria-hidden="true"></i><span>Rules and points</span></router-link>
                 <router-link class="spacing" to="/Agenda"><i class="ms-Icon ms-Icon--CalendarAgenda" aria-hidden="true"></i><span>Agenda</span></router-link>
-                <router-link class="spacing" to="/Agenda"><i class="ms-Icon ms-Icon--Education" aria-hidden="true"></i><span>Code of conduct</span></router-link>
                 <router-link class="spacing" to="/register"><i class="ms-Icon ms-Icon--AddFriend" aria-hidden="true"></i><span>Register</span></router-link>
+                <router-link class="spacing" to="/anniversary"><i class="ms-Icon ms-Icon--PartyLeader" aria-hidden="true"></i><span>10th Anniversary</span></router-link>
+                             <!--<router-link class="spacing" to="/Values"><i class="ms-Icon ms-Icon--Education" aria-hidden="true"></i><span>Code of conduct</span></router-link>-->
+                <router-link class="spacing" to="/previous"><i class="ms-Icon ms-Icon--Picture" aria-hidden="true"></i><span>Previous Events</span></router-link>
                 <router-link class="spacing" to="/contact"><i class="ms-Icon ms-Icon--ContactCard" aria-hidden="true"></i><span>Contact us</span></router-link>
                 <!--<router-link class="spacing" to="/lastYear">Previous Hackatons</router-link>-->
               </nav>
@@ -36,12 +37,14 @@
               <div class="selector"></div>
                 <router-link class="spacing" to="/home">Home</router-link>
                 <router-link class="spacing" to="/about">About</router-link>
-                <router-link class="spacing" to="/anniversary">10th Anniversary</router-link>
-                <router-link class="spacing" to="/galleri">Galleri</router-link>
+                <router-link class="spacing" to="/RulesAndPoints">Rules and points</router-link>
                 <router-link class="spacing" to="/Agenda">Agenda</router-link>
-                <router-link class="spacing" to="/Values">Code of conduct</router-link>
                 <router-link class="spacing" to="/register">Register</router-link>
+                <router-link class="spacing" to="/anniversary">10th Anniversary</router-link>
+                  <!--<router-link class="spacing" to="/Values">Code of conduct</router-link>-->
+                <router-link class="spacing" to="/previous">Previous Events</router-link>
                 <router-link class="spacing" to="/contact">Contact us</router-link>
+               
                 <!--<router-link class="spacing" to="/lastYear">Previous Hackatons</router-link>-->
             </nav>
           </div>
@@ -82,6 +85,10 @@ export default {
     font-size: 20px;
     margin-left: 0!important;
   } 
+  .bm-burger-button {
+    top: 15px;
+    right: 5px!important;
+  }
 
   .bm-item-list > nav {
     display: inline-block;
@@ -92,15 +99,7 @@ export default {
   }
 
   .logo1left {
-    float: left;
-    padding-top:35px;
-  }
-
-  .logo2right {
-    padding-top: 35px;
-    /* margin-left: 22px; */
-    left: 170px;
-    position: absolute;
+    padding-top:15px;
   }
 
   .logo1 {
@@ -113,7 +112,7 @@ export default {
   }
 
   .spacing {
-    margin-right: 5px;
+    margin-right: 10px;
   }
 
   .NavigationBar {

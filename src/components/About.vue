@@ -133,7 +133,7 @@ export default {
   padding: 20px;
   text-align: left;
    background: white;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/images/toa-heftiba-362196-unsplash.jpg") no-repeat
+   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../assets/images/isai-ramos-46821-unsplash_comp.jpg") no-repeat
     center;
   background-size: cover;
   height: 40%;
