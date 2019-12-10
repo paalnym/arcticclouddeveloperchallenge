@@ -11,37 +11,37 @@
             <div class="row judge-devider">
               <div class="col-md-12">
                 <div class="judgeTitle darktext">Ahmad Najjar</div>
-                <img class="judgePicture" src="../assets/judges/ahmad.jpg" />
+                <img class="judgePicture" src="../assets/judges/ahmad.png" />
                 <div class="judgeDescription darktext">
                   Ahmad is an enthusiastic developer heart and soul and a senior consultant based in Oslo at Infoworker. He’s also an active co-organizer for events and hackathons. During his 15 years of experience, He has mainly worked with Microsoft based technologies, like ASP.NET, C#, SQL and (of course) SharePoint, which is his main focus area, whereas he has worked with SharePoint since the beta version of MOSS 2007!
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="judgeTitle darktext">Marc Anderson</div>
-                  <img class="judgePicture" src="../assets/judges/MarcAnderson.png" />
+                  <img class="judgePicture" src="../assets/judges/marc.png" />
                   <div class="judgeDescription darktext">
                     Marc has over 35 years of experience in technology professional services and software development. Over a wide-ranging career in consulting as well as line manager positions, Marc has proven himself as a problem solver and leader who can solve difficult technology problems for organizations across a wide variety of industries and organization sizes.
                   </div>
               </div>
               <div class="col-md-12">
                 <div class="judgeTitle darktext">Mikael Svenson</div>
-                <img class="judgePicture" src="../assets/judges/mikaelsvenson.png" />
+                <img class="judgePicture" src="../assets/judges/mikael.png" />
                 <div class="judgeDescription darktext">
-                  Mikael has with insight in many technologies and platforms as well as experience as project manager and customer communicator. Great at seeing the whole picture and piece together a solution, and working towards a common goal with colleagues, partners and customers.
+                  Principal Program Manager at Microsoft. Mikael has good insight in many technologies and platforms as well as experience as project manager and customer communicator.
                 </div>
               </div>
               <div class="col-md-12">
-                <div class="judgeTitle darktext">To be announced...</div>
-                <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
+                <div class="judgeTitle darktext">Kim Noel</div>
+                <img class="judgePicture" src="../assets/judges/kim.png" />
                 <div class="judgeDescription darktext">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                  Creative engineer with excellent communication skills, team spirit, and adaptability. Her mission is to enable others to embrace uncertainty since there is no linear path to success.
                 </div>
               </div>
               <div class="col-md-12">
-                <div class="judgeTitle darktext">To be announced...</div>
-                <img class="judgePicture" src="../assets/judges/jonathan-farber-655111-unsplash.png" />
+                <div class="judgeTitle darktext">Lucy Bourne</div>
+                <img class="judgePicture" src="../assets/judges/lucy.png" />
                 <div class="judgeDescription darktext">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
+                  Microsoft Business Applications Evangelist on a mission to empower every person and organisation on the planet to achieve more.
                 </div>
               </div>
             </div>
@@ -98,8 +98,8 @@ background: #27343C;
 }
 .judgePicture {
   margin-bottom: 15px;
-  width: 308px;
-  height: 384px;
+  width: 315px;
+  height: 315px;
 }
 .judge-devider{
   margin-left: 15px !important;
