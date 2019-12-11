@@ -86,7 +86,7 @@ export default {
     margin-left: 0!important;
   } 
   .bm-burger-button {
-    top: 15px;
+    top: 20px!important;
     right: 5px!important;
   }
 
