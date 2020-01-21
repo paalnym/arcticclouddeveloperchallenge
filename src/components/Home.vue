@@ -13,6 +13,16 @@
             <h1 class="lightbrowntitle title">VIKINGS ARE COMING</h1>
             <p class="event-date">February 6th-9th 2020</p>
             <p class="event-date"> 10 years anniversary</p>
+            <div class="divider"></div>
+        
+            <div class="sponsorGoldContainer">
+              <h2 class="sponsorGoldTitle">Gold Sponsors</h2>
+              <a href="https://www.microsoft.com"><img class="sponsorGoldLogo" src="../assets/sponsors/Microsoft-Logo-White.png" /></a>
+            </div>
+            <div class="sponsorSilverContainer">
+              <h2>Silver Sponsors</h2>
+              <a href="https://infoworker.no/"><img class="sponsorSilverLogo" src="../assets/sponsors/Infoworker_logo_white.png" /></a>
+            </div>
           </div>
         </div>
       </div>
@@ -414,6 +424,17 @@ export default {
   font-size: 30px;
   margin-bottom: 15px;
   font-family: "Roboto Condensed", Georgia, Times, serif;
+}
+.sponsorSilverLogo {
+  max-width: 180px;
+  padding-top: 25px;
+}
+.sponsorGoldLogo {
+  max-width: 300px;
+}
+.sponsorGoldContainer {
+  margin-bottom: 40px;
+  margin-top: 60px;
 }
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
