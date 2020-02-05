@@ -16,12 +16,13 @@
             <div class="divider"></div>
         
             <div class="sponsorGoldContainer">
-              <h2 class="sponsorGoldTitle">Gold Sponsors</h2>
+              <h2 class="sponsorGoldTitle lightbrowntitle">Gold Sponsors</h2>
               <a href="https://www.microsoft.com"><img class="sponsorGoldLogo" src="../assets/sponsors/Microsoft-Logo-White.png" /></a>
             </div>
-            <div class="sponsorSilverContainer">
+            <div class="sponsorSilverContainer lightbrowntitle">
               <h2>Silver Sponsors</h2>
-              <a href="https://infoworker.no/"><img class="sponsorSilverLogo" src="../assets/sponsors/Infoworker_logo_white.png" /></a>
+              <div><a href="https://infoworker.no/"><img class="sponsorSilverLogo" src="../assets/sponsors/Infoworker_logo_white.png" /></a></div>
+              <div><a href="https://pointtaken.no/"><img class="sponsorSilverLogo" src="../assets/sponsors/PointTaken-Logo-White.png" /></a></div>
             </div>
           </div>
         </div>
@@ -426,8 +427,9 @@ export default {
   font-family: "Roboto Condensed", Georgia, Times, serif;
 }
 .sponsorSilverLogo {
-  max-width: 180px;
+  max-width: 200px;
   padding-top: 25px;
+  padding-bottom: 25px;
 }
 .sponsorGoldLogo {
   max-width: 300px;

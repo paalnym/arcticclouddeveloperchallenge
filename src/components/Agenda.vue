@@ -32,13 +32,15 @@
                     <p class="card-text">
                        <ul>
                         <li><p><span class="yellowtitle">0800</span> Breakfast</p></li>
-                        <li><p><span class="yellowtitle">0900</span> Jury Duty &#x26; Challenge session</p></li>
+                        <li><p><span class="yellowtitle">0900</span> Jury Duty &#x26; Challenge session</p></li>
                         <li><p><span class="yellowtitle">1130</span> Points &#x26; Helmets</p></li>
                         <li><p><span class="yellowtitle">1200</span> Lunch</p></li>
                         <li><p><span class="yellowtitle">1300</span> Challenge session</p></li>
                         <li><p><span class="yellowtitle">1500</span> SharePint &#x26; Snack </p></li>
-                        <li><p><span class="yellowtitle">1600</span> Community Event</p></li>
-                        <li><p><span class="yellowtitle">1815</span> Panel Discussion</p></li>
+                        <li><p><span class="yellowtitle">1600</span> Session 1 &#x26; Session 2</p></li>
+                        <li><p><span class="yellowtitle">1645</span> Session 3 &#x26; Session 4</p></li>
+                        <li><p><span class="yellowtitle">1730</span> Session 5 &#x26; Mjød</p></li>
+                        <li><p><span class="yellowtitle">1815</span> Panel discussion</p></li>
                         <li><p><span class="yellowtitle">1900</span> Dinner &#x26; Mjød</p></li>
                         <li><p><span class="yellowtitle">2100</span> Fun and games</p></li>
                         <li><p><span class="yellowtitle">2200</span> Party</p></li>

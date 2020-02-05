@@ -10,6 +10,7 @@
   "dependencies": {
     "bootstrap": "^4.2.1",
     "bootstrap-vue": "^2.0.0-rc.11",
+    "buttercms": "^1.2.1",
     "jquery": "^3.3.1",
     "vlightbox": "^2.0.2",
     "vue": "^2.5.21",
